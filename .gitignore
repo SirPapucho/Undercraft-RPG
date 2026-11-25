@@ -7,7 +7,7 @@ local/
 .cache/
 versions/
 libraries/
-assets/
+/assets/
 profileImage/
 
 # Generado automaticamente por CurseForge / build
