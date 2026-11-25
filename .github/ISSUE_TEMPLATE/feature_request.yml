@@ -1,0 +1,25 @@
+name: Sugerencia / Balanceo RPG
+description: Propón mejoras de balanceo, nuevas recetas, misiones o mods para Undercraft RPG
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoría de la sugerencia
+      options:
+        - Balanceo (daño, vida de mobs, loot, progresión)
+        - Recetas / Compatibilidad entre mods
+        - Quests / Guía del jugador
+        - Nuevo mod sugerido
+        - Otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Detalle de la propuesta
+      description: Explica qué cambiarías o agregarías y cómo mejora la experiencia RPG del modpack.
+    validations:
+      required: true

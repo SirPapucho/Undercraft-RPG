@@ -1,0 +1,67 @@
+name: Bug Report
+description: Reporta un crash, error de recetas, problema en quests o fallo técnico en Undercraft RPG
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar un problema en **Undercraft RPG**. Por favor completa los campos siguientes para poder reproducirlo.
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: Versión del Modpack
+      description: Versión exacta instalada desde CurseForge (ej. 1.0.0)
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Entorno de juego
+      options:
+        - Singleplayer
+        - Multiplayer (Servidor dedicado)
+        - LAN
+    validations:
+      required: true
+
+  - type: dropdown
+    id: modified
+    attributes:
+      label: ¿Añadiste o quitaste mods/shaders por tu cuenta?
+      options:
+        - No, es el modpack original sin cambios
+        - Sí, agregué shaders o resource packs
+        - Sí, agregué o quité mods
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del problema
+      description: Explica qué ocurrió y qué esperabas que sucediera.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. Abrir mesa de crafteo / libro de misiones...
+        2. Intentar fabricar / interactuar con...
+        3. Ocurre el error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash Report
+      description: Sube tu latest.log o crash-report a https://mclo.gs y pega el enlace aquí.
+      placeholder: "https://mclo.gs/..."
+      render: text
