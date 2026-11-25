@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sophisticated_mods"
+	group: "06F109935DDA6D62"
+	icon: {
+		components: {
+			"sophisticatedcore:number_of_inventory_slots": 27
+			"sophisticatedcore:number_of_upgrade_slots": 1
+		}
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "14D5AE76FE75EEA2"
+	images: [ ]
+	order_index: 2
+	quest_links: [{
+		id: "5255F89847D9A2E8"
+		linked_quest: "49E3091A6C2152BA"
+		x: -2.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4FA1ACB77EF9DD46"]
+			id: "4285A9383A751CEF"
+			tasks: [{
+				id: "3BD0EE07ACCBABE6"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C16CEC6AFE513DA"]
+			id: "3297F9F51DE14560"
+			tasks: [{
+				id: "51153C9EFDDA29A0"
+				item: { count: 1, id: "sophisticatedstorage:basic_tier_upgrade" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3297F9F51DE14560"]
+			id: "1183FF54F5718BEB"
+			tasks: [{
+				id: "15A30E9BE2CC24CE"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_copper_tier_upgrade" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30825AAC2DA3947C"]
+			id: "14F343F38540D872"
+			tasks: [{
+				id: "65B564189459E3A3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_gold_tier_upgrade)item(sophisticatedstorage:copper_to_gold_tier_upgrade)item(sophisticatedstorage:iron_to_gold_tier_upgrade))", "minecraft:custom_name": "\"Iron to gold\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1183FF54F5718BEB"]
+			id: "30825AAC2DA3947C"
+			tasks: [{
+				id: "36EBDB24DDF440BF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_iron_tier_upgrade)item(sophisticatedstorage:copper_to_iron_tier_upgrade))", "minecraft:custom_name": "\"Basic to iron\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14F343F38540D872"]
+			id: "4E026BEA6C36DCE3"
+			tasks: [{
+				id: "0A8D1F0F344390B2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_diamond_tier_upgrade)item(sophisticatedstorage:copper_to_diamond_tier_upgrade)item(sophisticatedstorage:iron_to_diamond_tier_upgrade)item(sophisticatedstorage:gold_to_diamond_tier_upgrade))", "minecraft:custom_name": "\"Gold to diamond\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E026BEA6C36DCE3"]
+			id: "298AB4753E9185CA"
+			tasks: [{
+				id: "19B256B3DFF518DD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:basic_to_netherite_tier_upgrade)item(sophisticatedstorage:copper_to_netherite_tier_upgrade)item(sophisticatedstorage:iron_to_netherite_tier_upgrade)item(sophisticatedstorage:gold_to_netherite_tier_upgrade)item(sophisticatedstorage:diamond_to_netherite_tier_upgrade))", "minecraft:custom_name": "\"Diamond to netherite\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31DA9E65E2EF0DAA"]
+			id: "0E6C01B1F19617FC"
+			tasks: [{
+				id: "62EF8F2E2ED49025"
+				item: { count: 1, id: "sophisticatedstorage:storage_tool" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3297F9F51DE14560"]
+			id: "31DA9E65E2EF0DAA"
+			tasks: [{
+				id: "0E8975A82906C5E4"
+				item: { count: 1, id: "sophisticatedstorage:controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31DA9E65E2EF0DAA"]
+			id: "330B4E19E1E10ED5"
+			tasks: [{
+				id: "3956EFAD22C324A8"
+				item: { count: 1, id: "sophisticatedstorage:storage_io" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31DA9E65E2EF0DAA"]
+			id: "3427948161FC39CF"
+			optional: true
+			tasks: [{
+				id: "6834CDB837A95A2C"
+				item: { count: 1, id: "sophisticatedstorage:storage_link" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3297F9F51DE14560"]
+			id: "6DEE323E88E42B46"
+			tasks: [{
+				id: "2CC362FBFB0CCE55"
+				item: { count: 1, id: "sophisticatedstorage:upgrade_base" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C16CEC6AFE513DA"]
+			id: "105871D061F5ADA7"
+			tasks: [
+				{
+					id: "0CC30450A94B034B"
+					item: { count: 1, id: "sophisticatedstorage:packing_tape" }
+					type: "item"
+				}
+				{
+					id: "42978FBE9D1F4C7C"
+					item: { count: 1, id: "sophisticatedstorage:super_packing_tape" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4285A9383A751CEF"]
+			id: "01DDA1FCE6A52444"
+			tasks: [{
+				id: "58FA0E08A3B562CF"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(sophisticatedbackpacks:upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DEE323E88E42B46"]
+			id: "5759915E4C25F430"
+			tasks: [{
+				id: "3A98E5B9B7A3DDD0"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(sophisticatedstorage:upgrade))", "minecraft:custom_name": "\"SS Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4285A9383A751CEF"]
+			id: "4E911222973B34D6"
+			tasks: [{
+				id: "4F3B33EB93F2B821"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:stack_upgrade_starter_tier)item(sophisticatedbackpacks:stack_upgrade_tier_1)item(sophisticatedbackpacks:stack_upgrade_tier_2)item(sophisticatedbackpacks:stack_upgrade_tier_3)item(sophisticatedbackpacks:stack_upgrade_tier_4))", "minecraft:custom_name": "\"SB Stack Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DEE323E88E42B46"]
+			id: "4E225C4DF0FD23EF"
+			tasks: [{
+				id: "47E60D5B9547B624"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:stack_upgrade_tier_1)item(sophisticatedstorage:stack_upgrade_tier_1_plus)item(sophisticatedstorage:stack_upgrade_tier_2)item(sophisticatedstorage:stack_upgrade_tier_3)item(sophisticatedstorage:stack_upgrade_tier_4)item(sophisticatedstorage:stack_upgrade_tier_5))", "minecraft:custom_name": "\"SS Stack Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49E3091A6C2152BA"]
+			id: "4FA1ACB77EF9DD46"
+			tasks: [{
+				id: "2F6F10020E564403"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))", "minecraft:custom_name": "\"Backpack Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7C16CEC6AFE513DA"
+			tasks: [{
+				id: "7103A3C7C82DEE61"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:chests/wooden)item_tag(c:barrels/wooden))", "minecraft:custom_name": "\"SS Storage\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49E3091A6C2152BA"]
+			id: "4B1E89816BFBBD57"
+			tasks: [{
+				id: "027C951F59285344"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C16CEC6AFE513DA"]
+			id: "24A493C339146511"
+			tasks: [{
+				id: "6046D15013422C80"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:tank)item(sophisticatedstorage:copper_tank)item(sophisticatedstorage:iron_tank)item(sophisticatedstorage:gold_tank)item(sophisticatedstorage:diamond_tank)item(sophisticatedstorage:netherite_tank))", "minecraft:custom_name": "\"Tanques de fluidos\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ascension_final"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "armageddon_mod:the_corrupted_tear"
+	}
+	id: "77CC491DF4A47FEC"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+}

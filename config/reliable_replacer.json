@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "enable_retrogen": true,
+  "missing_id_map": {
+    "powah:deepslate_uraninite_ore_poor": "mekanism:deepslate_uranium_ore",
+    "powah:deepslate_uraninite_ore_dense": "mekanism:deepslate_uranium_ore",
+    "powah:uraninite_ore_poor": "mekanism:uranium_ore",
+    "powah:deepslate_uraninite_ore": "mekanism:deepslate_uranium_ore",
+    "powah:uraninite_ore_dense": "mekanism:uranium_ore",
+    "powah:uraninite_ore": "mekanism:uranium_ore"
+  }
+}

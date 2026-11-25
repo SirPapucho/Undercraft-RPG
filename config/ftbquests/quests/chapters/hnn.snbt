@@ -1,0 +1,113 @@
+{
+	autofocus_id: "64A90D3813BDD72B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hnn"
+	group: "5BA41BF62FC698A4"
+	icon: {
+		id: "hostilenetworks:sim_chamber"
+	}
+	id: "43718C3D75EC9781"
+	images: [ ]
+	order_index: 0
+	quest_links: [{
+		id: "27A56F055494115D"
+		linked_quest: "5C3273B7B8E71008"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1789B6A3C5F93C32"]
+			id: "6C7710E0D38A9F31"
+			shape: "diamond"
+			tasks: [{
+				id: "784A1A334991C98A"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1789B6A3C5F93C32"]
+			id: "2D736EA983EF2438"
+			shape: "diamond"
+			tasks: [{
+				id: "5F7A5B0C4EA97AFE"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C79A5942F1374B2"]
+			id: "64A90D3813BDD72B"
+			tasks: [{
+				id: "3CF58D8EB1106B78"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5337FFC1C23486F0"]
+			id: "7C79A5942F1374B2"
+			tasks: [{
+				id: "3BBC1DA9B49E6A19"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C7710E0D38A9F31"]
+			id: "6260B15077C14027"
+			shape: "diamond"
+			tasks: [{
+				id: "5AF5CD2EE52C6C8C"
+				item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64A90D3813BDD72B"]
+			id: "1789B6A3C5F93C32"
+			shape: "diamond"
+			tasks: [{
+				id: "1E6E0E2BE4135839"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:data_model))", "minecraft:custom_name": "\"Data Models\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			id: "5337FFC1C23486F0"
+			tasks: [{
+				id: "7058C299B5F52016"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D736EA983EF2438"]
+			id: "20FBCC009789BF3E"
+			shape: "diamond"
+			tasks: [{
+				id: "2608E8201FBF74E8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(hostilenetworks:prediction))", "minecraft:custom_name": "\"Predictions\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+	]
+}

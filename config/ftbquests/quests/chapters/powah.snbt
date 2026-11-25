@@ -1,0 +1,369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "63FE7365F2A2C134"
+	icon: {
+		id: "powah:reactor_nitro"
+	}
+	id: "28DA9225B21E13AF"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "70277FBD49127E49"
+			image: "undercraft:textures/questpics/powah/reactors_text.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "6086FA3C7B392542"
+			image: "undercraft:textures/questpics/create/passive_generators_text.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "290A46BA82C3C14D"
+			image: "undercraft:textures/questpics/create/active_generators_text.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "7B60DE72F7999B65"
+			image: "undercraft:textures/questpics/powah/storing_energy.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "37281EB84598D9EE"
+			image: "undercraft:textures/questpics/powah/transporting_energy.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 10.5d
+		}
+	]
+	order_index: 0
+	quest_links: [{
+		id: "759EF19DAE92BDA3"
+		linked_quest: "5C3273B7B8E71008"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0F68109D9790A5C3"]
+			id: "3DAA73E468B3964C"
+			tasks: [{
+				id: "23D71C73E878FE19"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50F0495BE7C281DB"]
+			id: "6A4C567E807B3EAB"
+			tasks: [{
+				id: "1C90449140ADA151"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:furnators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["50F0495BE7C281DB"]
+			id: "27E80D615B1E17B6"
+			tasks: [{
+				id: "1336F3E7B04FFAC1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:magmators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C583A3499EE4E1A"]
+			id: "730EDDC262425B04"
+			tasks: [{
+				id: "60DAB39792CA238E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:thermo_generators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C583A3499EE4E1A"]
+			id: "4D159085D7DC0CF0"
+			tasks: [{
+				id: "051810E559742F1B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:solar_panels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FCBBFC8F9878BB0"]
+			id: "0A4A6F91004AFD2D"
+			tasks: [{
+				id: "1808C5B2BB6AFC60"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:reactors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19D7B42D4AEA174E"]
+			id: "5ACE0E18392B3C2A"
+			tasks: [{
+				id: "7F943C099882FB5C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19D7B42D4AEA174E"]
+			id: "162C8978E771AB88"
+			tasks: [{
+				id: "69AFC4048D1B101C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:ender_cells)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1107EF420EC2B398"]
+			id: "38E1CB94A07A6CC5"
+			tasks: [
+				{
+					id: "51162FB9DFF4AE80"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:player_transmitters)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2CE643F3D791560E"
+					item: { count: 1, id: "powah:player_aerial_pearl" }
+					type: "item"
+				}
+				{
+					id: "1E2B4BD6B0B10F20"
+					item: { count: 1, id: "powah:binding_card_dim" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0C3945AAEA11B20C"]
+			id: "0F68109D9790A5C3"
+			tasks: [
+				{
+					id: "32DBD229B6564D7F"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					id: "3E75B94623F9168A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energizing_rods)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3DAA73E468B3964C"]
+			icon_scale: 2.0d
+			id: "619E592A731B89E3"
+			shape: "none"
+			tasks: [
+				{
+					id: "04F01040B121D503"
+					item: { count: 1, id: "powah:steel_energized" }
+					type: "item"
+				}
+				{
+					id: "6BF44254F744460A"
+					item: { count: 1, id: "powah:crystal_blazing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B21573A5DF956BB"
+					item: { count: 1, id: "powah:crystal_niotic" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BB1D429BE69E7FE"
+					item: { count: 1, id: "powah:crystal_spirited" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1209E646DD2F9651"
+					item: { count: 1, id: "powah:crystal_nitro" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1107EF420EC2B398"]
+			id: "4035BF10E7E6C36C"
+			tasks: [{
+				id: "2696C39AD815B3D6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:energy_cables)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1107EF420EC2B398"
+				"162C8978E771AB88"
+			]
+			id: "12F3916BDA18777D"
+			tasks: [{
+				id: "67C0F9B034750D29"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(powah:ender_gates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			icon: {
+				id: "powah:dielectric_casing"
+			}
+			icon_scale: 2.0d
+			id: "0C3945AAEA11B20C"
+			rewards: [
+				{
+					id: "2EAC705605301E35"
+					item: {
+						count: 1
+						id: "powah:wrench"
+					}
+					type: "item"
+				}
+				{
+					id: "5D6F78EE0E8052E6"
+					item: {
+						count: 1
+						id: "powah:book"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [
+				{
+					id: "78E0E0844BD3E11C"
+					item: { count: 1, id: "powah:dielectric_casing" }
+					type: "item"
+				}
+				{
+					id: "3ED9BB8C510AA798"
+					item: { count: 1, id: "powah:dielectric_paste" }
+					type: "item"
+				}
+			]
+			x: 0.01156462585036877d
+			y: 1.1860544217687163d
+		}
+		{
+			dependencies: ["619E592A731B89E3"]
+			id: "19D7B42D4AEA174E"
+			tasks: [{
+				id: "488C1E29BE908309"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["619E592A731B89E3"]
+			id: "1107EF420EC2B398"
+			tasks: [{
+				id: "6A384FEBBDE61C8A"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["619E592A731B89E3"]
+			id: "50F0495BE7C281DB"
+			tasks: [{
+				id: "5A71080B8B2E3533"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["619E592A731B89E3"]
+			id: "0C583A3499EE4E1A"
+			tasks: [{
+				id: "3712D0E74779AB67"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["619E592A731B89E3"]
+			id: "3FCBBFC8F9878BB0"
+			tasks: [{
+				id: "60ADB5DDACD6667C"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19D7B42D4AEA174E"]
+			id: "299FE4D58D8F7894"
+			tasks: [{
+				id: "434B7FD08B1E2809"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:battery_nitro)item(powah:battery_spirited)item(powah:battery_niotic)item(powah:battery_blazing)item(powah:battery_hardened)item(powah:battery_basic)item(powah:battery_starter))", "minecraft:custom_name": "\"Baterias\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+	]
+}

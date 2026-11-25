@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "06F109935DDA6D62"
+	icon: {
+		id: "toms_storage:storage_terminal"
+	}
+	id: "59ED447C1C5629DE"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"674816DDBA4AA655"
+				"3C2E92F8F469626F"
+			]
+			icon_scale: 2.0d
+			id: "1E77D49888ED4EB1"
+			shape: "none"
+			tasks: [{
+				id: "1B49941C2B31569D"
+				item: { count: 1, id: "toms_storage:inventory_connector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CC7679F6A38599A"]
+			hide_until_deps_complete: true
+			id: "3C2E92F8F469626F"
+			tasks: [
+				{
+					id: "4FA167CA121A6954"
+					item: { count: 1, id: "toms_storage:inventory_cable" }
+					type: "item"
+				}
+				{
+					id: "3A1E63F35CA3BFAE"
+					item: { count: 1, id: "toms_storage:inventory_cable_framed" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CC7679F6A38599A"]
+			hide_until_deps_complete: true
+			id: "674816DDBA4AA655"
+			tasks: [{
+				id: "198B1B6CE7EA9F99"
+				item: { count: 1, id: "toms_storage:trim" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E77D49888ED4EB1"]
+			icon_scale: 2.0d
+			id: "540F5D2ACC1B7564"
+			shape: "none"
+			tasks: [{
+				id: "5FF08AA2B6BF3EB2"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["540F5D2ACC1B7564"]
+			icon_scale: 2.0d
+			id: "1B1ACDE3BC9E146D"
+			shape: "none"
+			tasks: [{
+				id: "40768556A4CEABD0"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E77D49888ED4EB1"]
+			icon_scale: 1.5d
+			id: "2BB3883B607970E0"
+			shape: "none"
+			tasks: [{
+				id: "579938A8D0DB39FD"
+				item: { count: 1, id: "toms_storage:wireless_terminal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2BB3883B607970E0"]
+			icon_scale: 1.5d
+			id: "178A2B5A1B877DC4"
+			shape: "none"
+			tasks: [{
+				id: "3C758DA7A49BDB00"
+				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E77D49888ED4EB1"]
+			id: "6B6A59A096F6A617"
+			tasks: [{
+				id: "1E50DD945DB9A7BD"
+				item: { count: 1, id: "toms_storage:basic_inventory_hopper" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E77D49888ED4EB1"]
+			id: "5A946028E44A30EE"
+			tasks: [{
+				id: "30F738F1D26CAE86"
+				item: { components: { "ftbfiltersystem:filter": "or(item(toms_storage:item_filter)item(toms_storage:polymorphic_item_filter)item(toms_storage:tag_item_filter))", "minecraft:custom_name": "\"Toms Filters\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

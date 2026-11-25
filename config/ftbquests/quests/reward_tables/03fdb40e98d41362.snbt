@@ -1,0 +1,74 @@
+{
+	id: "03FDB40E98D41362"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			id: "49848008FBF21282"
+			item: {
+				components: {
+					"powah:energy_stored": 1000000L
+				}
+				count: 1
+				id: "powah:battery_starter"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "0AB3316A38221BD3"
+			item: {
+				components: {
+					"powah:energy_stored": 4000000L
+				}
+				count: 1
+				id: "powah:battery_basic"
+			}
+			weight: 2.0f
+		}
+		{ id: "037F020CD496A498", item: { components: { "powah:energy_stored": 10000000L }, count: 1, id: "powah:battery_hardened" } }
+		{
+			id: "7FFEFAB480879CA3"
+			item: {
+				components: {
+					"powah:energy_stored": 40000000L
+				}
+				count: 1
+				id: "powah:battery_blazing"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "346366C57E2FCCEA"
+			item: {
+				components: {
+					"powah:energy_stored": 400000000L
+				}
+				count: 1
+				id: "powah:battery_spirited"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "6D68FF5C089B20C4"
+			item: {
+				components: {
+					"powah:energy_stored": 100000000L
+				}
+				count: 1
+				id: "powah:battery_niotic"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "2F97A8257D3124B2"
+			item: {
+				components: {
+					"powah:energy_stored": 2000000000L
+				}
+				count: 1
+				id: "powah:battery_nitro"
+			}
+			weight: 0.2f
+		}
+	]
+}

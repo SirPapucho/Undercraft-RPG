@@ -1,0 +1,60 @@
+{
+	id: "7A46D3F4646AD219"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			id: "1204536635E4C656"
+			item: {
+				count: 1
+				id: "functionalstorage:copper_upgrade"
+			}
+			weight: 0.8f
+		}
+		{
+			id: "556FA492B086A992"
+			item: {
+				count: 1
+				id: "functionalstorage:gold_upgrade"
+			}
+			weight: 0.6f
+		}
+		{
+			id: "0F4132C86A1436B2"
+			item: {
+				count: 1
+				id: "functionalstorage:diamond_upgrade"
+			}
+			weight: 0.4f
+		}
+		{
+			id: "3F32D17115EB292C"
+			item: {
+				count: 1
+				id: "functionalstorage:netherite_upgrade"
+			}
+			weight: 0.2f
+		}
+		{ id: "7D0DB22D844FFBFA", item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" } }
+		{ id: "54498404D836FBBF", item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" } }
+		{ id: "102F4D5CACF8DFB2", item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" } }
+		{ id: "2782C0455A484F09", item: { count: 1, id: "functionalstorage:void_upgrade" } }
+		{
+			id: "700124078BD0CCFE"
+			item: {
+				count: 1
+				id: "functionalstorage:dripping_upgrade"
+			}
+			weight: 0.5f
+		}
+		{ id: "26EA28CED32EC611", item: { count: 1, id: "functionalstorage:water_generator_upgrade" } }
+		{
+			id: "348C647EAB80FEF0"
+			item: {
+				count: 1
+				id: "functionalstorage:obsidian_upgrade"
+			}
+			weight: 0.7f
+		}
+	]
+}

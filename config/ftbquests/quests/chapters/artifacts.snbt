@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "6F440E6D43D6DFD9"
+	icon: {
+		components: {
+			"relics:data": {
+				abilities: {
+					abilities: {
+						deception: {
+							lock: {
+								breaks: 5
+							}
+							points: 0
+							stats: {
+								damage_reduction_per_illusion: {
+									initialQuality: 8
+								}
+								illusion_duration: {
+									initialQuality: 1
+								}
+								illusion_radius: {
+									initialQuality: 4
+								}
+								paralysis_duration: {
+									initialQuality: 7
+								}
+								trigger_chance: {
+									initialQuality: 2
+								}
+							}
+						}
+					}
+					synergies: { }
+				}
+				leveling: { }
+				statistic: { }
+			}
+		}
+		id: "reliquified_ars_nouveau:illusionists_mantle"
+	}
+	id: "7B8BD7ACFDC611A5"
+	images: [
+		{
+			height: 1.0d
+			id: "7A3E40F3F1082826"
+			image: "artifacts:item/power_glove"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "1C4690AB00BF210A"
+			image: "relics:item/midnight_mantle_new_moon"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "6E2892FAC9E3D503"
+			image: "relics:item/kinetic_belt"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			id: "34F67EDD5B6D4EAA"
+			image: "artifacts:item/onion_ring"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "60CAD0792E6A7140"
+			image: "relics:item/springy_boot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			id: "705D30295853886B"
+			image: "artifacts:item/cloud_in_a_bottle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			id: "71A063A331E75409"
+			image: "artifacts:item/crystal_heart"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "65EBCFE417070F5A"
+			image: "relics:item/ring_of_the_seven_deadly_sins"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			id: "58956DEAE8F898BC"
+			image: "relics:item/chef_hat_flawless"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0BD485FDDB0E3DD3"
+			image: "relics:item/reflective_necklace"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			id: "7EA252078E8F872B"
+			image: "reliquified_ars_nouveau:item/whirlisprig_petals"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "48D80E0BA1D023E6"
+			tasks: [{
+				id: "2C3BF5440AB4716E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(reliquified_ars_nouveau:flaming_bracer)item(reliquified_ars_nouveau:ballistarian_bracer)item(artifacts:onion_ring)item(artifacts:withered_bracelet))", "minecraft:custom_name": "\"Curio Bracelet\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "3A6C7C7055AE0216"
+			tasks: [{
+				id: "752DA510C94608DC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(reliquified_ars_nouveau:cloak_of_concealment)item(reliquified_ars_nouveau:spiked_cloak)item(reliquified_ars_nouveau:illusionists_mantle)item(relics:leafy_mantle)item(relics:glitchy_mantle)item(relics:ghostly_mantle)item(relics:midnight_mantle))", "minecraft:custom_name": "\"Curio Back Relics\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "2D41137527D4C775"
+			tasks: [{
+				id: "4E20D83E4FC0FA39"
+				item: { components: { "ftbfiltersystem:filter": "or(item(artifacts:cloud_in_a_bottle)item(artifacts:obsidian_skull)item(artifacts:antidote_vessel)item(artifacts:universal_attractor)item(artifacts:crystal_heart)item(artifacts:chorus_totem)item(artifacts:warp_drive)item(relics:experience_disperser)item(reliquified_ars_nouveau:emblem_of_defense)item(reliquified_ars_nouveau:emblem_of_assault)item(reliquified_ars_nouveau:emblem_of_devotion))", "minecraft:custom_name": "\"Curio Charm\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "4EE12258872C5C07"
+			tasks: [{
+				id: "1173D7A891EEF8DB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(relics:kinetic_belt)item(relics:hunting_belt)item(artifacts:helium_flamingo))", "minecraft:custom_name": "\"Curio Belt\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "24AA24846A27C698"
+			tasks: [{
+				id: "63BAC3D89C2EDFF7"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:head))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "384ABE0A08E5FF94"
+			tasks: [{
+				id: "6B27F0DEE4AABD6F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:feet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "4374F06CB06366E8"
+			tasks: [{
+				id: "0239A84B3BBDCC80"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:necklace))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "19E56E0C5983CF00"
+			tasks: [{
+				id: "74984F7972C42B1F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:hands))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "50C3A8BD701B78D3"
+			tasks: [{
+				id: "1C922F012FA5DAA3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(relics:chorus_staff)item(relics:clot_of_time)item(relics:rider_flute)item(relics:sphere_of_self_sacrifice)item(relics:shield_of_retaliation)item(reliquified_ars_nouveau:staff_of_the_spectral_walker)item(reliquified_ars_nouveau:whirlisprig_petals)item(reliquified_ars_nouveau:whirling_broom)item(reliquified_ars_nouveau:architects_staff)item(artifacts:umbrella)item(artifacts:everlasting_beef)item(artifacts:eternal_steak))", "minecraft:custom_name": "\"Curio Misc\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.53858933672673d
+		}
+		{
+			id: "0C39A7302E7CFCFA"
+			tasks: [{
+				id: "3C621A47722591AD"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(curios:ring))", "minecraft:custom_name": "\"Curio Ring\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+}

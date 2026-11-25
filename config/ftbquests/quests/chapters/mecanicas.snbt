@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mecanicas"
+	group: "4B09857A6432255F"
+	icon: {
+		components: {
+			"ftbquests:icon": "jade:textures/gui/sprites/energy.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "2E6F508F5FB9D24B"
+	images: [
+		{
+			click_action: "none:"
+			height: 3.5d
+			id: "09F8DD7AF2016527"
+			image: "undercraft:textures/questpics/mecanicas/difficulty_blaze.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.1d
+			id: "1B7E8D1C229BBC3D"
+			image: "undercraft:textures/questpics/mecanicas/vanilla_enchanting_setup.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click_action: "none:"
+			height: 3.5d
+			id: "50F9045612B95D83"
+			image: "undercraft:textures/questpics/mecanicas/trimmed_armor.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "7942BE1BAB0935A6"
+			image: "armageddon_mod:textures/armageddon_smalllogo2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "0D27A91678741376"
+			image: "minecraft:textures/mob_effect/jump_boost.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "120B26350614AC25"
+			image: "relics:textures/mob_effect/immortality.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 1.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F79C70A6BC6DF66"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jade:textures/gui/sprites/energy.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5C3273B7B8E71008"
+			tasks: [{
+				id: "4DE755D0D3B8795B"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "2F2C2553B74B8BAD"
+			tasks: [{
+				id: "5165295E6D9120C1"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "relics:relic_experience_bottle"
+			}
+			id: "7DAE36DC1C7092DC"
+			tasks: [{
+				id: "11055964BCA54D30"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/quest_locked.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "76BF27B122D60696"
+			tasks: [{
+				id: "1CF8207B1DB32F93"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "58FF1F1F3C274198"
+			tasks: [{
+				id: "23777CF51314D034"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:upgrade_jumpboost"
+			}
+			id: "2A421485FBE4A47F"
+			tasks: [{
+				id: "0524FDC83411C975"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "57293DDB1D41A4DD"
+			tasks: [{
+				id: "66D231CBD0161FA3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:trim_templates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}

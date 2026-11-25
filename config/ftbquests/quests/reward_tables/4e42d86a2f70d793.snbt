@@ -1,0 +1,36 @@
+{
+	id: "4E42D86A2F70D793"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ id: "0ABB3B794BE9B63E", item: { components: { "hostilenetworks:data_model": "extradatamodels:alexsmobs/kangaroo" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "77F10053BD87932B", item: { components: { "hostilenetworks:data_model": "extradatamodels:alexsmobs/laviathan" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "5B5D5E5DF7A437F8", item: { components: { "hostilenetworks:data_model": "extradatamodels:alexsmobs/tarantula_hawk" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "45245EBB23BE8E7E", item: { components: { "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "4AAF4969553525C8", item: { components: { "hostilenetworks:data_model": "hostilenetworks:blaze" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "7B978B64BED91141", item: { components: { "hostilenetworks:data_model": "hostilenetworks:breeze" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "111E7CD51B3EE69C", item: { components: { "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2689644282E1C7E3", item: { components: { "hostilenetworks:data_model": "hostilenetworks:cod" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2156967EB0EE6B4B", item: { components: { "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "775812F5129A767C", item: { components: { "hostilenetworks:data_model": "hostilenetworks:creeper" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "0258A98E61DA8CEB", item: { components: { "hostilenetworks:data_model": "hostilenetworks:drowned" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "74C12556D9B14652", item: { components: { "hostilenetworks:data_model": "hostilenetworks:ghast" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "0093DDC5E6ACF815", item: { components: { "hostilenetworks:data_model": "hostilenetworks:glow_squid" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "117155934E1EA0E4", item: { components: { "hostilenetworks:data_model": "hostilenetworks:guardian" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "358E46037FD8859A", item: { components: { "hostilenetworks:data_model": "hostilenetworks:hoglin" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2748B1C5547AA962", item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "67C6042F51A744B8", item: { components: { "hostilenetworks:data_model": "hostilenetworks:mooshroom" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "3141A2135A59CB8E", item: { components: { "hostilenetworks:data_model": "hostilenetworks:phantom" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "3F61B3522B48EE63", item: { components: { "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2D050ED9FF83789A", item: { components: { "hostilenetworks:data_model": "hostilenetworks:polar_bear" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "15DCD99E0289C5FF", item: { components: { "hostilenetworks:data_model": "hostilenetworks:pufferfish" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "3591E6C1926F2DF0", item: { components: { "hostilenetworks:data_model": "hostilenetworks:rabbit" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "5BFD72058B15F96B", item: { components: { "hostilenetworks:data_model": "hostilenetworks:sheep" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "76A423B4C586266D", item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "3D71CDD960DCF6C8", item: { components: { "hostilenetworks:data_model": "hostilenetworks:slime" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "52AF8AF9DB47B05F", item: { components: { "hostilenetworks:data_model": "hostilenetworks:snow_golem" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "322C36600B2B4D8F", item: { components: { "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "532F9D5909AC3DD9", item: { components: { "hostilenetworks:data_model": "hostilenetworks:squid" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "517200BCF4612179", item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:data_model" } }
+	]
+}

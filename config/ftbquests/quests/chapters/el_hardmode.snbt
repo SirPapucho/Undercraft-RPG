@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "el_hardmode"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "cataclysm:remnant_skull"
+	}
+	id: "31A0D37DD66A3DF0"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

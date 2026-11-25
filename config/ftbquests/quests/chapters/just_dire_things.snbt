@@ -1,0 +1,463 @@
+{
+	autofocus_id: "2BC2383433C9B8A5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things"
+	group: "6E3E50343E6BFEEA"
+	icon: {
+		id: "justdirethings:time_crystal"
+	}
+	id: "09E9367C13C32378"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2315C2806AC875D6"]
+			hide_until_deps_complete: true
+			id: "2039117F0F094A87"
+			rewards: [
+				{
+					count: 2
+					id: "284B92CFB86EE6B1"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "12C5CFFD351C330B"
+					item: {
+						count: 1
+						id: "minecraft:green_wool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3848683EDDE671FB"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2039117F0F094A87"
+				"42725B6A376BBA48"
+			]
+			hide_until_deps_complete: true
+			id: "2BC2383433C9B8A5"
+			tasks: [{
+				id: "1C3E9366F4F4F367"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC2383433C9B8A5"]
+			hide_until_deps_complete: true
+			id: "3A8644908B0EF29D"
+			tasks: [{
+				id: "442D60F56C507905"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A8644908B0EF29D"]
+			hide_until_deps_complete: true
+			id: "501E2D24B2D98C71"
+			tasks: [{
+				id: "11EDBDEA2DCCC2C6"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2039117F0F094A87"]
+			id: "240707DBDC0B03F8"
+			rewards: [{
+				amount: 5L
+				id: "366F366F07E910C1"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "47D02045601298D7"
+					item: { count: 1, id: "justdirethings:raw_ferricore" }
+					type: "item"
+				}
+				{
+					id: "718146E2340758CB"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+				{
+					id: "282E95CAC09F1E94"
+					item: { count: 1, id: "justdirethings:ferricore_block" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A8644908B0EF29D"]
+			id: "3A8FF67D3D97B9D8"
+			tasks: [{
+				id: "76CD23D00C833145"
+				item: { count: 1, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["501E2D24B2D98C71"]
+			id: "251D65131068ED29"
+			tasks: [
+				{
+					id: "09463624B5232633"
+					item: { count: 1, id: "justdirethings:raw_eclipsealloy" }
+					type: "item"
+				}
+				{
+					id: "057EF30BC777AD02"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03DFAEBF27239E61"]
+			id: "3A6E400174E9C39C"
+			tasks: [{
+				id: "03E74B4B101FF774"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:ferricore_helmet)item(justdirethings:ferricore_chestplate)item(justdirethings:ferricore_leggings)item(justdirethings:ferricore_boots))", "minecraft:custom_name": "\"JDT Ferricore Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03DFAEBF27239E61"]
+			id: "4B57662AD6D877CB"
+			tasks: [{
+				id: "090A02C24DD534FF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:ferricore_sword)item(justdirethings:ferricore_pickaxe)item(justdirethings:ferricore_axe)item(justdirethings:ferricore_shovel)item(justdirethings:ferricore_hoe)item(justdirethings:bow_ferricore))", "minecraft:custom_name": "\"JDT Ferricore Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A96B3D72597B9FD"]
+			id: "3B1ADBB1B92AEAD6"
+			tasks: [{
+				id: "4B656D7674A7139E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_sword)item(justdirethings:blazegold_pickaxe)item(justdirethings:blazegold_axe)item(justdirethings:blazegold_shovel)item(justdirethings:blazegold_hoe)item(justdirethings:bow_blazegold))", "minecraft:custom_name": "\"JDT Blazegold Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A96B3D72597B9FD"]
+			id: "7A247E17C533C9E0"
+			tasks: [{
+				id: "4C8D634BE9122443"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_helmet)item(justdirethings:blazegold_chestplate)item(justdirethings:blazegold_leggings)item(justdirethings:blazegold_boots))", "minecraft:custom_name": "\"JDT Blazegold Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A2D4D42AC31B497"]
+			id: "749F415E8E1ADA12"
+			tasks: [{
+				id: "39EC5673E76A9294"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:celestigem_sword)item(justdirethings:celestigem_pickaxe)item(justdirethings:celestigem_axe)item(justdirethings:celestigem_shovel)item(justdirethings:celestigem_hoe)item(justdirethings:bow_celestigem))", "minecraft:custom_name": "\"JDT Celestigem Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A2D4D42AC31B497"]
+			id: "331334B067BCA4DE"
+			tasks: [{
+				id: "547E5AC6F523AD08"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:celestigem_helmet)item(justdirethings:celestigem_chestplate)item(justdirethings:celestigem_leggings)item(justdirethings:celestigem_boots))", "minecraft:custom_name": "\"JDT Celestigem Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["749F415E8E1ADA12"]
+			id: "33D32A7F6948ECC4"
+			tasks: [{
+				id: "35CB14D81C41F86A"
+				item: { count: 1, id: "justdirethings:celestigem_paxel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5738D14599C83B39"
+				"33D32A7F6948ECC4"
+			]
+			dependency_requirement: "one_completed"
+			id: "59EF383841C2A8BB"
+			tasks: [{
+				id: "1CAE135ACE8232F0"
+				item: { count: 1, id: "justdirethings:eclipsealloy_paxel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DF4E5FE556A26BC"]
+			id: "2D81E50B01016F22"
+			tasks: [{
+				id: "54F419E1E555B16C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:eclipsealloy_helmet)item(justdirethings:eclipsealloy_chestplate)item(justdirethings:eclipsealloy_leggings)item(justdirethings:eclipsealloy_boots))", "minecraft:custom_name": "\"JDT Eclipse Armor\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DF4E5FE556A26BC"]
+			id: "5738D14599C83B39"
+			tasks: [{
+				id: "1239411D74A39A59"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:eclipsealloy_sword)item(justdirethings:eclipsealloy_pickaxe)item(justdirethings:eclipsealloy_axe)item(justdirethings:eclipsealloy_shovel)item(justdirethings:eclipsealloy_hoe)item(justdirethings:bow_eclipsealloy))", "minecraft:custom_name": "\"JDT Eclipse Tools\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2039117F0F094A87"]
+			id: "04DDC43B0FC60E9F"
+			tasks: [
+				{
+					id: "3142AF6F69300CA6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockbreakert1)item(justdirethings:blockplacert1)item(justdirethings:clickert1)item(justdirethings:sensort1)item(justdirethings:droppert1)item(justdirethings:blockswappert1)item(justdirethings:fluidplacert1)item(justdirethings:fluidcollectort1)item(justdirethings:generatort1)item(justdirethings:generatorfluidt1))", "minecraft:custom_name": "\"JDT Simple Machines\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "38B5A47615FEE037"
+					item: { count: 1, id: "justdirethings:ferricore_wrench" }
+					type: "item"
+				}
+				{
+					id: "1C0FE01963162C0C"
+					item: { count: 1, id: "justdirethings:machinesettingscopier" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A8FF67D3D97B9D8"]
+			id: "4D9A5677DCB7C78A"
+			tasks: [{
+				id: "2B5AF95E89CBA776"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blockbreakert2)item(justdirethings:blockplacert2)item(justdirethings:clickert2)item(justdirethings:sensort2)item(justdirethings:droppert2)item(justdirethings:blockswappert2)item(justdirethings:fluidplacert2)item(justdirethings:fluidcollectort2))", "minecraft:custom_name": "\"JDT Advanced Machines\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2039117F0F094A87"]
+			id: "788B9B2245CCE1AE"
+			tasks: [{
+				id: "07DAC2FEE2D63A11"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:upgrade_runspeed)item(justdirethings:upgrade_walkspeed)item(justdirethings:upgrade_stepheight)item(justdirethings:upgrade_jumpboost)item(justdirethings:upgrade_swimspeed)item(justdirethings:upgrade_elytra)item(justdirethings:upgrade_negatefalldamage)item(justdirethings:upgrade_nightvision)item(justdirethings:upgrade_decoy)item(justdirethings:upgrade_waterbreathing)item(justdirethings:upgrade_earthquake)item(justdirethings:upgrade_flight)item(justdirethings:upgrade_lavaimmunity)item(justdirethings:upgrade_deathprotection)item(justdirethings:upgrade_debuffremover)item(justdirethings:upgrade_stupefy)item(justdirethings:upgrade_phase)item(justdirethings:upgrade_extinguish)item(justdirethings:upgrade_mindfog)item(justdirethings:upgrade_cauterizewounds)item(justdirethings:upgrade_groundstomp))", "minecraft:custom_name": "\"JDT Armor Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2039117F0F094A87"]
+			id: "167DAD010FAA6434"
+			tasks: [{
+				id: "30C0F88132260DF1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:upgrade_mobscanner)item(justdirethings:upgrade_oreminer)item(justdirethings:upgrade_orescanner)item(justdirethings:upgrade_lawnmower)item(justdirethings:upgrade_treefeller)item(justdirethings:upgrade_leafbreaker)item(justdirethings:upgrade_potionarrow)item(justdirethings:upgrade_smelter)item(justdirethings:upgrade_smoker)item(justdirethings:upgrade_hammer)item(justdirethings:upgrade_splash)item(justdirethings:upgrade_dropteleport)item(justdirethings:upgrade_lingering)item(justdirethings:upgrade_homing)item(justdirethings:upgrade_orexray)item(justdirethings:upgrade_glowing)item(justdirethings:upgrade_instabreak)item(justdirethings:upgrade_epicarrow)item(justdirethings:upgrade_time_protection))", "minecraft:custom_name": "\"JDT Tool Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BC2383433C9B8A5"]
+			id: "2F6AF9D520460FA4"
+			tasks: [{
+				id: "1A924D769B30678C"
+				item: { count: 1, id: "justdirethings:blazejet_wand" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3A8644908B0EF29D"
+				"2F6AF9D520460FA4"
+			]
+			hide_until_deps_complete: true
+			id: "4D4037761414358C"
+			tasks: [{
+				id: "1D25A31C5E683686"
+				item: { count: 1, id: "justdirethings:voidshift_wand" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"501E2D24B2D98C71"
+				"4D4037761414358C"
+			]
+			hide_until_deps_complete: true
+			id: "7DE7B1A3C8F15891"
+			tasks: [{
+				id: "306A4751B1EE418B"
+				item: { count: 1, id: "justdirethings:eclipsegate_wand" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["402ED09DF680A21C"]
+			id: "5970480EF756A533"
+			tasks: [{
+				id: "376227B4DC894E73"
+				item: { count: 1, id: "justdirethings:portalgun" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BC2383433C9B8A5"]
+			id: "402ED09DF680A21C"
+			tasks: [
+				{
+					id: "68C0D2880DAEA49F"
+					item: { count: 1, id: "justdirethings:raw_blazegold" }
+					type: "item"
+				}
+				{
+					id: "5B2C836C40C827FA"
+					item: { count: 1, id: "justdirethings:blazegold_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"03DFAEBF27239E61"
+				"402ED09DF680A21C"
+			]
+			hide_until_deps_complete: true
+			id: "4A96B3D72597B9FD"
+			tasks: [{
+				id: "358DC540B209CBA7"
+				item: { count: 1, id: "justdirethings:template_blazegold" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3A8FF67D3D97B9D8"
+				"4A96B3D72597B9FD"
+			]
+			hide_until_deps_complete: true
+			id: "6A2D4D42AC31B497"
+			tasks: [{
+				id: "2637F9FA3CCFF826"
+				item: { count: 1, id: "justdirethings:template_celestigem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"251D65131068ED29"
+				"6A2D4D42AC31B497"
+			]
+			hide_until_deps_complete: true
+			id: "0DF4E5FE556A26BC"
+			tasks: [{
+				id: "3E26E195534DBAA2"
+				item: { count: 1, id: "justdirethings:template_eclipsealloy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["240707DBDC0B03F8"]
+			id: "03DFAEBF27239E61"
+			tasks: [{
+				id: "6C0A7E76200EA48F"
+				item: { count: 1, id: "justdirethings:template_ferricore" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["501E2D24B2D98C71"]
+			hide_until_deps_complete: true
+			id: "19E9ED96A63C8A98"
+			tasks: [{
+				id: "186523D26B8E4BC9"
+				item: { count: 1, id: "justdirethings:time_crystal_budding_block" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19E9ED96A63C8A98"]
+			id: "39BA5FB7E6BCDA09"
+			tasks: [{
+				id: "6DC476A063D443EC"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

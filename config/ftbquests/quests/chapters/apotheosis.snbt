@@ -1,0 +1,1097 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "1EC537407D4CBA07"
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:items/godforged_pearl"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "317879A245EB25A6"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "6151538DE57504EC"
+			height: 1.0d
+			id: "43DED828AC82EC61"
+			image: "apotheosis:items/gems/endersurge"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "426EE89FA49FCDFB"
+			image: "apotheosis:items/gem_dust"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.243875152794018d
+			y: 0.7230837439038638d
+		}
+		{
+			click_action: "none:"
+			dependency: "6508D4CFFAF62051"
+			height: 1.0d
+			id: "1756330E8B3D27CD"
+			image: "justdirethings:item/abilityupgrades/hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "1949DDA04261CDA8"
+			height: 1.0d
+			id: "3FC6DEA02CB08087"
+			image: "apotheosis:items/boss_summoner"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "1949DDA04261CDA8"
+			height: 2.0d
+			id: "4A51CF009C1BF369"
+			image: "lollipop:textures/misc/magic/rune_circle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "1949DDA04261CDA8"
+			height: 2.0d
+			id: "30BE17C8A92F9EB8"
+			image: "lollipop:textures/misc/magic/rune_circle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DDC1AC0E09113C2"
+			tasks: [{
+				advancement: "apotheosis:progression/haven"
+				criterion: ""
+				id: "4F1F83E4B578CB4E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46F216CA7939E85D"]
+			id: "42A8A6A427D60DD2"
+			tasks: [{
+				id: "7D0D2D2BB0DCBF14"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DDC1AC0E09113C2"]
+			hide_until_deps_complete: true
+			id: "273FACD0FC48E025"
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "489A81D2B51AC337"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["273FACD0FC48E025"]
+			hide_until_deps_complete: true
+			id: "1DF2AA98149024FF"
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "507160F8FF090605"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DF2AA98149024FF"]
+			hide_until_deps_complete: true
+			id: "7854976A66FF85E5"
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "2FB3E0E4F95F77C5"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7854976A66FF85E5"]
+			hide_until_deps_complete: true
+			id: "51FDF9134B833BEE"
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "015D5EB8A5F49939"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["46F216CA7939E85D"]
+			id: "60003643F1FDAB9B"
+			tasks: [{
+				id: "3BCF5A754778B672"
+				item: { count: 1, id: "apotheosis:spawner_chain" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"60003643F1FDAB9B"
+				"52423AA6A27C0BD3"
+			]
+			hide_until_deps_complete: true
+			id: "1949DDA04261CDA8"
+			tasks: [{
+				id: "0BF1CE353545DFFB"
+				item: { count: 1, id: "apotheosis:spawner_rune" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "66C9446663B656AC"
+			tasks: [{
+				id: "7237B120EE988966"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apothic_enchanting:cannot_be_converted_to_xp)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66C9446663B656AC"]
+			id: "3032AAA6017E9749"
+			tasks: [
+				{
+					id: "6022D34662E2DCF6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:anvil)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "760208DA27617BA9"
+					item: { count: 1, id: "apotheosis:gem_dust" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3032AAA6017E9749"
+				"4FF0DD7668C5C61B"
+			]
+			hide_until_deps_complete: true
+			id: "6508D4CFFAF62051"
+			tasks: [{
+				id: "48CC0429A5AEC45F"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6508D4CFFAF62051"]
+			id: "612FA454026B890F"
+			shape: "none"
+			tasks: [{
+				id: "14BC936D312B2266"
+				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6508D4CFFAF62051"
+				"612FA454026B890F"
+			]
+			id: "20A0549E29212506"
+			shape: "none"
+			tasks: [{
+				id: "6C1735DDDAE020FA"
+				item: { count: 1, id: "apotheosis:timeworn_fabric" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6508D4CFFAF62051"
+				"20A0549E29212506"
+			]
+			hide_until_deps_complete: true
+			id: "737109362484E526"
+			shape: "none"
+			tasks: [{
+				id: "492E8CE4A02CCE02"
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6508D4CFFAF62051"
+				"737109362484E526"
+			]
+			hide_until_deps_complete: true
+			id: "60A3C60050B1A774"
+			shape: "none"
+			tasks: [{
+				id: "37919352698CE0CA"
+				item: { count: 1, id: "apotheosis:arcane_sands" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6508D4CFFAF62051"
+				"60A3C60050B1A774"
+			]
+			hide_until_deps_complete: true
+			id: "32E97633B583F970"
+			shape: "none"
+			tasks: [{
+				id: "6FBBF909F0AAEF92"
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3032AAA6017E9749"
+				"519518601730E531"
+			]
+			hide_until_deps_complete: true
+			id: "5A7AC2CEF6E441FF"
+			tasks: [{
+				id: "094B0DBD20B5AAC5"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A7AC2CEF6E441FF"]
+			id: "6151538DE57504EC"
+			tasks: [{
+				id: "77EFCB7055248FA2"
+				item: { count: 1, id: "apotheosis:gem_case" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6151538DE57504EC"]
+			id: "116BC056694F3A8C"
+			tasks: [{
+				id: "5F7F88827C2E72BB"
+				item: { count: 1, id: "apotheosis:ender_gem_case" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3032AAA6017E9749"
+				"519518601730E531"
+			]
+			hide_until_deps_complete: true
+			id: "4023E8C6F6A2D506"
+			tasks: [{
+				id: "7D197501EF606FEC"
+				item: { count: 1, id: "apotheosis:simple_reforging_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4023E8C6F6A2D506"]
+			id: "0217EAD4071C99D2"
+			tasks: [{
+				id: "0F9CB50C7FAB6675"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4023E8C6F6A2D506"]
+			hide_dependency_lines: true
+			id: "13B88310A6DCEC8A"
+			shape: "none"
+			tasks: [{
+				id: "0C25324691E66A52"
+				item: { count: 1, id: "apotheosis:sigil_of_rebirth" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4023E8C6F6A2D506"]
+			hide_dependency_lines: true
+			id: "2F1349EF6C493667"
+			shape: "none"
+			tasks: [{
+				id: "09347C6D8F701C49"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4023E8C6F6A2D506"]
+			hide_dependency_lines: true
+			id: "00A8E33C64506F7C"
+			shape: "none"
+			tasks: [{
+				id: "2D09B2163D6A14C2"
+				item: { count: 1, id: "apotheosis:sigil_of_withdrawal" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4023E8C6F6A2D506"]
+			hide_dependency_lines: true
+			id: "054E7CA23E4D7B8F"
+			optional: true
+			shape: "none"
+			tasks: [{
+				id: "28C557C685FD1C3C"
+				item: { count: 1, id: "apotheosis:sigil_of_unnaming" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["32E97633B583F970"]
+			hide_until_deps_complete: true
+			id: "1A98EB1403E22541"
+			tasks: [{
+				id: "3F74DC177E4E0ECF"
+				item: { count: 1, id: "apotheosis:sigil_of_enhancement" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32E97633B583F970"]
+			hide_until_deps_complete: true
+			id: "5BCEAC1878412EBE"
+			tasks: [{
+				id: "74D2743CAC4F0F0A"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46F216CA7939E85D"]
+			id: "52423AA6A27C0BD3"
+			tasks: [{
+				id: "7B8EA6A85791EEB2"
+				item: { count: 1, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1949DDA04261CDA8"]
+			id: "5AE18D25440CC0E3"
+			tasks: [{
+				id: "4BC235958A658D73"
+				item: { count: 1, id: "apotheosis:frontier_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1949DDA04261CDA8"]
+			id: "7A2CD36F70F4DC98"
+			tasks: [{
+				id: "59D9D1B5D6444F28"
+				item: { count: 1, id: "apotheosis:ascent_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1949DDA04261CDA8"]
+			hide_until_deps_complete: true
+			id: "4A6AFFBCE370E396"
+			tasks: [{
+				id: "01F73D3DE4DB3626"
+				item: { count: 1, id: "apotheosis:infused_spawner_rune" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4A6AFFBCE370E396"]
+			id: "7C2D268709583624"
+			tasks: [{
+				id: "18E8D29B2E4E51F1"
+				item: { count: 1, id: "apotheosis:summit_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4A6AFFBCE370E396"]
+			id: "7D24B53FB5221245"
+			tasks: [{
+				id: "1C3247BC8583A3AF"
+				item: { count: 1, id: "apotheosis:pinnacle_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["42A8A6A427D60DD2"]
+			hide_until_deps_complete: true
+			id: "6312C66C077AA132"
+			shape: "none"
+			tasks: [{
+				id: "30866763D6CB40EB"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":1}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":2}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":3}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":4}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":5}}}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1949DDA04261CDA8"]
+			id: "21FC429E5174A2D3"
+			tasks: [{
+				id: "6E70DF176ABA6B49"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:spawn_range_spawner_rune)item(apotheosis:redstone_control_spawner_rune)item(apotheosis:ignore_light_spawner_rune)item(apotheosis:initial_health_spawner_rune)item(apotheosis:silent_spawner_rune)item(apotheosis:youthful_spawner_rune)item(apotheosis:burning_spawner_rune))", "minecraft:custom_name": "\"Apotheosis Runes 1\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4A6AFFBCE370E396"]
+			id: "7FB11DD6712E3B6F"
+			tasks: [{
+				id: "5C20DD18B009227D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:no_ai_spawner_rune)item(apotheosis:ignore_conditions_spawner_rune)item(apotheosis:ignore_players_spawner_rune)item(apotheosis:echoing_spawner_rune))", "minecraft:custom_name": "\"Apotheosis Rune 2\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			hide_until_deps_complete: true
+			id: "6020373B8DD614E4"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "39296E02A8AC7C5C"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					id: "1B1C04BBDF2D90DB"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_dependency_lines: true
+			id: "662E15BBF56FFCAA"
+			shape: "diamond"
+			tasks: [{
+				id: "7246C813E6F98CDD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_dependency_lines: true
+			id: "6464EDF5E9D093D4"
+			shape: "diamond"
+			tasks: [{
+				id: "41119EE0345D46CD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:skeleton_skull)item(minecraft:wither_skeleton_skull)item(minecraft:creeper_head)item(minecraft:zombie_head)item(minecraft:piglin_head))", "minecraft:custom_name": "\"Quanta Items\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_until_deps_complete: true
+			id: "469E0BAB5744B17F"
+			shape: "diamond"
+			tasks: [{
+				id: "0B9CF1D3B5135A53"
+				item: { count: 1, id: "apothic_enchanting:seashelf" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_until_deps_complete: true
+			id: "4C738F1C1ABCBBE1"
+			shape: "diamond"
+			tasks: [{
+				id: "049190BAD550A1E3"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"66E648EA7811E258"
+				"469E0BAB5744B17F"
+			]
+			id: "06E15AFA4C8487F0"
+			shape: "diamond"
+			tasks: [{
+				id: "5D5F5C1E21CB4765"
+				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4C738F1C1ABCBBE1"
+				"469E0BAB5744B17F"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "66E648EA7811E258"
+			size: 1.0d
+			tasks: [{
+				id: "53DC55E7D3110997"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"728DCE0F77B1AAA1"
+				"6CB0D4A3EAE7A334"
+			]
+			id: "1E04F492D49BF777"
+			tasks: [
+				{
+					id: "7856C97F5896B7FD"
+					item: { count: 1, id: "apothic_enchanting:dormant_deepshelf" }
+					type: "item"
+				}
+				{
+					id: "016AB6685AEB0F53"
+					item: { count: 1, id: "apothic_enchanting:deepshelf" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4C738F1C1ABCBBE1"
+				"66E648EA7811E258"
+			]
+			id: "7CCC46B8A196648C"
+			shape: "diamond"
+			tasks: [{
+				id: "4B61EB541506A9EF"
+				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06E15AFA4C8487F0"]
+			hide_until_deps_complete: true
+			id: "728DCE0F77B1AAA1"
+			shape: "diamond"
+			tasks: [{
+				id: "7CBFA5C78E13FEFD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:crystal_seashelf)item(apothic_enchanting:heart_seashelf))", "minecraft:custom_name": "\"Seashelfs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CCC46B8A196648C"]
+			hide_until_deps_complete: true
+			id: "6CB0D4A3EAE7A334"
+			shape: "diamond"
+			tasks: [{
+				id: "1E67C67B5F8DF682"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:glowing_hellshelf)item(apothic_enchanting:blazing_hellshelf))", "minecraft:custom_name": "\"Hellshelfs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66E648EA7811E258"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5F2DF403B8CAC9E7"
+			shape: "diamond"
+			tasks: [{
+				id: "5D91336F2797DBCD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:beeshelf)item(apothic_enchanting:melonshelf)item(apothic_enchanting:stoneshelf))", "minecraft:custom_name": "\"Regulator Shelfs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CCC46B8A196648C"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "6F343BB72F83E665"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "218FB5C5B58E9C6A"
+					item: { count: 1, id: "apothic_enchanting:sightshelf" }
+					type: "item"
+				}
+				{
+					id: "23A5C96441DB30CE"
+					item: { count: 1, id: "apothic_enchanting:sightshelf_t2" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06E15AFA4C8487F0"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3D410A453E2EFE05"
+			shape: "diamond"
+			tasks: [{
+				id: "26982DE0904970F3"
+				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E04F492D49BF777"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "03BEFC665A07E9F7"
+			shape: "diamond"
+			tasks: [{
+				id: "1D3674755F10CBF9"
+				item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E04F492D49BF777"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "01C469B45DC7E77E"
+			shape: "diamond"
+			tasks: [{
+				id: "1447E0C7C1585BD2"
+				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7CCC46B8A196648C"
+				"06E15AFA4C8487F0"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7A02B1F2B06C9721"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5B02E6F59BDFBB57"
+					item: { count: 1, id: "apothic_enchanting:library" }
+					type: "item"
+				}
+				{
+					id: "26407D363F5989B7"
+					item: { count: 1, id: "apothic_enchanting:ender_library" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E04F492D49BF777"]
+			id: "14AB8B5461C068DA"
+			shape: "diamond"
+			tasks: [{
+				id: "509E4EA6EC2740D3"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C626C3B66F70321"]
+			id: "38D781FB8D3287C6"
+			shape: "diamond"
+			tasks: [{
+				id: "3F1773A2F9A3F035"
+				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1E04F492D49BF777"]
+			id: "27296BEFDC8FB32F"
+			shape: "diamond"
+			tasks: [{
+				id: "28FBB45F8C04366F"
+				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C626C3B66F70321"]
+			id: "61D21D3365C4A05D"
+			shape: "diamond"
+			tasks: [{
+				id: "6D94BB38686E806E"
+				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"14AB8B5461C068DA"
+				"27296BEFDC8FB32F"
+			]
+			icon: {
+				id: "minecraft:warden_spawn_egg"
+			}
+			id: "2C626C3B66F70321"
+			shape: "diamond"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					icon: {
+						components: {
+							"!ftbquests:icon": { }
+							"ftbquests:entity_face": "minecraft:warden"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0D8C8DCB5EAD7521"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "40B304DC768166F8"
+					item: { count: 1, id: "apothic_enchanting:warden_tendril" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"61D21D3365C4A05D"
+				"38D781FB8D3287C6"
+			]
+			icon: {
+				id: "apothic_enchanting:infused_breath"
+			}
+			id: "609690EFA85A1CE6"
+			tasks: [
+				{
+					id: "7E417391A4D7B2F2"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					id: "11A35535A9C434E9"
+					item: { count: 1, id: "apothic_enchanting:infused_breath" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["609690EFA85A1CE6"]
+			id: "23D9DBF910FE8B4F"
+			tasks: [
+				{
+					id: "1E8ADBA66FB81757"
+					item: { count: 1, id: "apothic_enchanting:endshelf" }
+					type: "item"
+				}
+				{
+					id: "65D4EBD319DCA86D"
+					item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23D9DBF910FE8B4F"]
+			id: "039462CFD081746A"
+			tasks: [{
+				id: "5BD97135A477AFFE"
+				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["039462CFD081746A"]
+			id: "24637D488002436C"
+			tasks: [{
+				id: "3866E8D2473D2C8D"
+				item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon_scale: 0.9d
+			id: "4AD98FAF18B74ABA"
+			shape: "diamond"
+			tasks: [{
+				id: "56EF1D9E9BD192EA"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6020373B8DD614E4"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3C9FC617C2486427"
+			shape: "diamond"
+			tasks: [{
+				id: "57DF2C973320FB6E"
+				item: { count: 1, id: "apothic_enchanting:scrap_tome" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C9FC617C2486427"]
+			id: "2F58DE69B4B9D3BE"
+			shape: "diamond"
+			tasks: [{
+				id: "10E18B37D36FE936"
+				item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F58DE69B4B9D3BE"]
+			id: "04EA21F4FE4D4087"
+			shape: "diamond"
+			tasks: [{
+				id: "0F7CB8F49A43A35E"
+				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4AD98FAF18B74ABA"]
+			id: "54EC3268C43FA78C"
+			shape: "diamond"
+			tasks: [{
+				id: "5041CCD71B00BDCA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))", "minecraft:custom_name": "\"Apoth Armor Tomes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AD98FAF18B74ABA"]
+			id: "07C0CF55475F62B4"
+			shape: "diamond"
+			tasks: [{
+				id: "792AA695321FB226"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:weapon_tome)item(apothic_enchanting:bow_tome))", "minecraft:custom_name": "\"Apoth Weapon Tomes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4AD98FAF18B74ABA"]
+			id: "161266FDA6767D23"
+			shape: "diamond"
+			tasks: [{
+				id: "10371BDACF32747F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:fishing_tome)item(apothic_enchanting:other_tome))", "minecraft:custom_name": "\"Apoth Misc Tomes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "7D8B44817DE37C5F"
+			tasks: [{
+				id: "5ECE38F407F59665"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "76A160A9012C58AD"
+			tasks: [{
+				id: "614439DBF9BEA57D"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "46F216CA7939E85D"
+			tasks: [{
+				id: "77F271E4716B15F7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4F87FEB62DCD01DC"
+			tasks: [{
+				id: "5D896AB4DC4C609E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42A8A6A427D60DD2"]
+			hide_until_deps_complete: true
+			id: "63DB933AAEE8D186"
+			shape: "none"
+			tasks: [{
+				id: "3104AACD47A3FCBC"
+				item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+	]
+}

@@ -1,0 +1,28 @@
+# Server-specific configuration for Create Ultimine
+# This file is meant for server administrators to control user behaviour.
+
+{
+	features: {
+		# Right-click on the copycat blocks with the held material to apply onto
+		# Default: true
+		copycat_application: true
+		manual_applications: {
+			"create:item_application/brass_casing_from_log": true
+			"create_connected:item_application/haunting_catalyst_from_empty": true
+			"create:item_application/bound_cardboard_inworld": true
+			"create:item_application/copper_casing_from_log": true
+			"create:item_application/copper_casing_from_wood": true
+			"create:item_application/brass_casing_from_wood": true
+			"create:item_application/andesite_casing_from_log": true
+			"create:item_application/railway_casing": true
+			"create:item_application/andesite_casing_from_wood": true
+			"create_connected:item_application/blasting_catalyst_from_empty": true
+			"create_connected:item_application/splashing_catalyst_from_empty": true
+			"create_connected:item_application/smoking_catalyst_from_empty": true
+		}
+		
+		# Right-click with an wrench with the Ultimine key held to interact blocks (e.g. rotate, breaking)
+		# Default: true
+		right_click_wrench: true
+	}
+}

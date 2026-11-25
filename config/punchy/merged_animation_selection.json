@@ -1,0 +1,149 @@
+{
+  "selected_animations": [
+    {
+      "kind": "item",
+      "definition": "AXE",
+      "animations": {
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "useitem": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "BOW",
+      "animations": {
+        "use_bow": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "CROSSBOW",
+      "animations": {
+        "use_crossbow": "pack:file/movethosehands!-1.2.3.zip",
+        "use_crossbow_shot": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "HOE",
+      "animations": {
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "useitem": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "MACE",
+      "animations": {
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "PICKAXE",
+      "animations": {
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "inspect": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHIELD",
+      "animations": {
+        "use_shield": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SHOVEL",
+      "animations": {
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "useitem": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SWORD",
+      "animations": {
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "inspect": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip",
+        "triggerable": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "TRIDENT",
+      "animations": {
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "SPEAR",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "mining": "pack:punchy:punchy",
+        "hand_in": "pack:punchy:punchy",
+        "spear_charge": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FULL_BLOCK",
+      "animations": {
+        "attack": "pack:punchy:punchy",
+        "mining_v2": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FISHING_ROD",
+      "animations": {
+        "fishingrod": "pack:punchy:punchy",
+        "attack": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "FLINT",
+      "animations": {
+        "useitem": "pack:punchy:punchy"
+      }
+    },
+    {
+      "kind": "item",
+      "definition": "EMPTY_HAND",
+      "animations": {
+        "hand_in": "pack:file/movethosehands!-1.2.3.zip",
+        "hand_out": "pack:file/movethosehands!-1.2.3.zip",
+        "attack": "pack:file/movethosehands!-1.2.3.zip",
+        "useitem": "pack:file/movethosehands!-1.2.3.zip",
+        "mining_v2": "pack:file/movethosehands!-1.2.3.zip"
+      }
+    }
+  ]
+}

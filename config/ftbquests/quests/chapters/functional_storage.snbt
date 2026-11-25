@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "functional_storage"
+	group: "06F109935DDA6D62"
+	icon: {
+		id: "functionalstorage:oak_4"
+	}
+	id: "24CD7184F347BB23"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "10BA90DFC88C22D8"
+			tasks: [{
+				id: "65B69B20CCCDEDE1"
+				item: { count: 1, id: "functionalstorage:storage_controller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "3E03EB5D27971235"
+			tasks: [{
+				id: "14DF9E84D3C13BDD"
+				item: { count: 1, id: "functionalstorage:controller_extension" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "729C765EC24BB223"
+			optional: true
+			tasks: [{
+				id: "40A1D3E4FDE0B7E4"
+				item: { count: 1, id: "functionalstorage:armory_cabinet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "610F05524B87F985"
+			optional: true
+			tasks: [{
+				id: "0552CEE588816773"
+				item: { count: 1, id: "functionalstorage:ender_drawer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "7DC89009E7A14A81"
+			tasks: [
+				{
+					id: "47D3862C2A3FD78F"
+					item: { count: 1, id: "functionalstorage:configuration_tool" }
+					type: "item"
+				}
+				{
+					id: "47407AA6E12023F7"
+					item: { count: 1, id: "functionalstorage:linking_tool" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "408BD7C2769B23C1"
+			tasks: [{
+				id: "0B07B0CC560FE937"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:redstone_upgrade)item(functionalstorage:void_upgrade))", "minecraft:custom_name": "\"FS Misc Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "720C74DBF959FA2C"
+			tasks: [{
+				id: "27F8837DF5AD9ED1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:dripping_upgrade)item(functionalstorage:water_generator_upgrade)item(functionalstorage:obsidian_upgrade))", "minecraft:custom_name": "\"FS Generator Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "6E78D3B3BC1E1C60"
+			tasks: [{
+				id: "1B2F7553C70501A7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:collector_upgrade)item(functionalstorage:puller_upgrade)item(functionalstorage:pusher_upgrade))", "minecraft:custom_name": "\"FS Direction Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "14CA99A0BE41EF14"
+			tasks: [{
+				id: "37B28724FD971E7C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:iron_downgrade)item(functionalstorage:copper_upgrade)item(functionalstorage:gold_upgrade)item(functionalstorage:diamond_upgrade)item(functionalstorage:netherite_upgrade))", "minecraft:custom_name": "\"FS Storage Upgrades\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "461F4C3F95573C59"
+			tasks: [{
+				id: "5CB0F56CBA067526"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:simple_compacting_drawer)item(functionalstorage:compacting_drawer))", "minecraft:custom_name": "\"FS Compacting Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["534FCDC64AFFDDDD"]
+			id: "207A8EFA3DB54B63"
+			tasks: [{
+				id: "48CA56739521D6A8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:fluid_1)item(functionalstorage:fluid_2)item(functionalstorage:fluid_4))", "minecraft:custom_name": "\"FS Fluid Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "534FCDC64AFFDDDD"
+			shape: "none"
+			tasks: [{
+				id: "339472AC1790A1F1"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(functionalstorage:drawer_1x1)item_tag(functionalstorage:drawer_1x2)item_tag(functionalstorage:drawer_2x2))", "minecraft:custom_name": "\"FS Regular Drawers\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

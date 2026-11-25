@@ -1,0 +1,81 @@
+[COLLECT_COINS_BUTTON]
+	#X position for coin button
+	#Tips: 80 for align for right side
+	# Default: 0
+	# Range: > -2147483648
+	xCollectCoins = 0
+	#Y position for coin button
+	# Default: 0
+	# Range: > -2147483648
+	yCollectCoins = 0
+	#Enable convert buttons on collect coins button
+	enableConvertButtons = true
+	#X position for coin button in creative mode
+	#Tips: 80 for align for right side
+	# Default: 0
+	# Range: > -2147483648
+	xCollectCoinsCreative = 0
+	#Y position for coin button in creative mode
+	# Default: 0
+	# Range: > -2147483648
+	yCollectCoinsCreative = 0
+
+[SILVER_BUTTON]
+	#Enable silver button
+	enableSilverButton = false
+	#X position of silver button
+	# Default: 0
+	# Range: -750 ~ 750
+	xSilverButton = 0
+	#Y position of silver button
+	# Default: 0
+	# Range: -750 ~ 750
+	ySilverButton = 0
+	#X position of silver button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	xSilverButtonCreative = 0
+	#Y position of silver button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	ySilverButtonCreative = 0
+
+[GOLD_BUTTON]
+	#Enable gold button
+	enableGoldButton = false
+	#X position of gold button
+	# Default: 0
+	# Range: -750 ~ 750
+	xGoldButton = 0
+	#Y position of gold button
+	# Default: 0
+	# Range: -750 ~ 750
+	yGoldButton = 0
+	#X position of gold button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	xGoldButtonCreative = 0
+	#Y position of gold button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	yGoldButtonCreative = 0
+
+[CRYSTAL_BUTTON]
+	#Enable crystal button
+	enableCrystalButton = false
+	#X position of crystal button
+	# Default: 0
+	# Range: -750 ~ 750
+	xCrystalButton = 0
+	#Y position of crystal button
+	# Default: 0
+	# Range: -750 ~ 750
+	yCrystalButton = 0
+	#X position of crystal button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	xCrystalButtonCreative = 0
+	#Y position of crystal button in creative mode
+	# Default: 0
+	# Range: -750 ~ 750
+	yCrystalButtonCreative = 0

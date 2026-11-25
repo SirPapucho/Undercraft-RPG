@@ -1,0 +1,24 @@
+{
+	id: "054399E6F468ED7E"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ id: "182E5C52928023CB", item: { components: { "hostilenetworks:data_model": "extradatamodels:ars_nouveau/wilden_chimera" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "310C95CE2B5A819D", item: { components: { "hostilenetworks:data_model": "hostilenetworks:blaze" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "55D2EF303370CA30", item: { components: { "hostilenetworks:data_model": "hostilenetworks:elder_guardian" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "34D7C47A44623801", item: { components: { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "622052A86D58C297", item: { components: { "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "66A6979DD7AE0509", item: { components: { "hostilenetworks:data_model": "hostilenetworks:evoker" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2A5913D0A0935DE1", item: { components: { "hostilenetworks:data_model": "hostilenetworks:iron_golem" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "071CB13F854E48EE", item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/ancient_knight" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "7928FB3D2BE7419D", item: { components: { "hostilenetworks:data_model": "extradatamodels:irons_spellbooks/dead_king" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "74E8797FE09478D7", item: { components: { "hostilenetworks:data_model": "hostilenetworks:pillager" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "1309D25DA6F7EFDE", item: { components: { "hostilenetworks:data_model": "hostilenetworks:vindicator" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "796A2BF82BD83366", item: { components: { "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "30CDDE0A71B0126D", item: { components: { "hostilenetworks:data_model": "hostilenetworks:witch" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "77CACEAE590C82AD", item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "2E462BE0F278C4E3", item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "12D7086372C11F59", item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:data_model" } }
+		{ id: "73398C396B346DC3", item: { components: { "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:data_model" } }
+	]
+}

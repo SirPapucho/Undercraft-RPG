@@ -1,0 +1,20 @@
+{
+  "preferences": {
+    "sha256-a5a8f28267d537ab776263b5336a45018c861867165a95a6f0c7230466484c31": {
+      "modelType": "classic",
+      "favorite": false
+    },
+    "sha256-8f25e5dc5da83e6cdc38592878cbc9e65314029007e380001301ddc4b7e2e484": {
+      "modelType": "slim",
+      "favorite": false
+    },
+    "sha256-76b70f24092cb1fbebb0420c7711c7cd7621d0dcad6dc68179af54e657c7ee01": {
+      "modelType": "auto",
+      "favorite": false
+    },
+    "sha256-824715bae0def845d8330b45ca79478345505e9e22e207ee79256a46d363a428": {
+      "modelType": "classic",
+      "favorite": false
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+	id: "028BC72639EA66FC"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 32
+			id: "4C981F568DA70574"
+			item: {
+				count: 1
+				id: "apotheosis:mysterious_scrap_metal"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 24
+			id: "758B4E94D0E57901"
+			item: {
+				count: 1
+				id: "apotheosis:timeworn_fabric"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 16
+			id: "7FA2793185DE3AF8"
+			item: {
+				count: 1
+				id: "apotheosis:luminous_crystal_shard"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "505D8006E7D7624F"
+			item: {
+				count: 1
+				id: "apotheosis:arcane_sands"
+			}
+		}
+		{
+			count: 4
+			id: "250557DCEF325EF7"
+			item: {
+				count: 1
+				id: "apotheosis:godforged_pearl"
+			}
+			weight: 0.5f
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "el_fin"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "armageddon_mod:voiderite"
+	}
+	id: "484E402086E08774"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,26 @@
+# Runtime, cache y datos locales de Minecraft
+logs/
+crash-reports/
+saves/
+backups/
+local/
+.cache/
+versions/
+libraries/
+assets/
+
+# Ajustes locales y minimapas
+journeymap/
+xaero/
+options.txt
+optionsof.txt
+
+# Jars de mods (se resuelven mediante manifest.json)
+mods/*.jar
+!mods/*.disabled
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "anchor": "TOP_LEFT",
+  "offsetX": 10,
+  "offsetY": 10,
+  "scale": 1.0,
+  "showSelf": false,
+  "showAbsorption": true,
+  "showArmor": true,
+  "showDistance": true,
+  "backgroundOpacity": 0.4
+}

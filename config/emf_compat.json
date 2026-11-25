@@ -1,0 +1,13 @@
+{
+  "configVersion": 1,
+  "booleans": {
+    "bettercombat.bodyFollowArms": true,
+    "carryon.forceVanillaCarriedModel": false,
+    "core.enabled": true,
+    "carryon.enabled": true,
+    "quark.enabled": true,
+    "bettercombat.enabled": true,
+    "watut.enabled": true
+  },
+  "numbers": {}
+}

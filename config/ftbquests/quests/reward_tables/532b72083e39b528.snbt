@@ -1,0 +1,71 @@
+{
+	id: "532B72083E39B528"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 5
+			id: "35D27FCBF7FFA808"
+			item: {
+				count: 1
+				id: "ars_nouveau:abjuration_essence"
+			}
+		}
+		{
+			count: 5
+			id: "43B88A476FA9B0A2"
+			item: {
+				count: 1
+				id: "ars_nouveau:conjuration_essence"
+			}
+		}
+		{
+			count: 5
+			id: "6152614457E654E9"
+			item: {
+				count: 1
+				id: "ars_nouveau:air_essence"
+			}
+		}
+		{
+			count: 5
+			id: "5000B06562085BD0"
+			item: {
+				count: 1
+				id: "ars_nouveau:earth_essence"
+			}
+		}
+		{
+			count: 5
+			id: "107A47D7575B9D0A"
+			item: {
+				count: 1
+				id: "ars_nouveau:fire_essence"
+			}
+		}
+		{
+			count: 5
+			id: "613EDAD0D8BFF3FA"
+			item: {
+				count: 1
+				id: "ars_nouveau:manipulation_essence"
+			}
+		}
+		{
+			count: 5
+			id: "3543DA0328780610"
+			item: {
+				count: 1
+				id: "ars_nouveau:water_essence"
+			}
+		}
+		{
+			count: 5
+			id: "244EB99C6F0E12C7"
+			item: {
+				count: 1
+				id: "sauce:anima_essence"
+			}
+		}
+	]
+}

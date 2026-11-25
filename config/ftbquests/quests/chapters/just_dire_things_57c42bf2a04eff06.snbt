@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things_57c42bf2a04eff06"
+	group: "63FE7365F2A2C134"
+	icon: {
+		components: {
+			"ftbquests:icon": "justdirethings:item/pocket_generator_active"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "57C42BF2A04EFF06"
+	images: [ ]
+	order_index: 3
+	quest_links: [{
+		id: "01B4E5CA55E90E7C"
+		linked_quest: "5C3273B7B8E71008"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"240707DBDC0B03F8"
+				"5C3273B7B8E71008"
+			]
+			hide_until_deps_complete: true
+			id: "4D529229BCFE2092"
+			tasks: [{
+				id: "10C34503EE8D4A15"
+				item: { count: 1, id: "justdirethings:generatort1" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"240707DBDC0B03F8"
+				"5C3273B7B8E71008"
+			]
+			hide_until_deps_complete: true
+			id: "49B695D8BD43D7DA"
+			tasks: [{
+				id: "4075C0F85CA145ED"
+				item: { count: 1, id: "justdirethings:generatorfluidt1" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D529229BCFE2092"]
+			id: "1EFD2AFBF91A7BB3"
+			tasks: [{
+				id: "528DD29FF173D755"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:coal_t1)item(justdirethings:coal_t2)item(justdirethings:coal_t3)item(justdirethings:coal_t4))", "minecraft:custom_name": "\"JDT Coals\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49B695D8BD43D7DA"]
+			id: "7CE07A508C5B8F49"
+			tasks: [{
+				id: "388FE749F6612CD6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:refined_t2_fluid_bucket)item(justdirethings:refined_t3_fluid_bucket)item(justdirethings:refined_t4_fluid_bucket))", "minecraft:custom_name": "\"JDT Liquids\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"240707DBDC0B03F8"
+				"5C3273B7B8E71008"
+			]
+			hide_until_deps_complete: true
+			id: "7F327A43D165AC36"
+			tasks: [{
+				id: "769A958DF9E0C989"
+				item: { count: 1, id: "justdirethings:pocket_generator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

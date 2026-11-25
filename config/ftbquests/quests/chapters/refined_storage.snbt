@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "06F109935DDA6D62"
+	icon: {
+		id: "refinedstorage:creative_controller"
+	}
+	id: "39A22C5E790188A0"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0A436244CB33A121"
+			tasks: [
+				{
+					id: "06AD3BF116A61974"
+					item: { count: 1, id: "refinedstorage:processor_binding" }
+					type: "item"
+				}
+				{
+					id: "5B46A27557123781"
+					item: { count: 1, id: "refinedstorage:silicon" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6764890C0BBB6C54"
+			tasks: [
+				{
+					id: "20FE6D8B127658E0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(refinedstorage:raw_basic_processor)item(refinedstorage:raw_improved_processor)item(refinedstorage:raw_advanced_processor))", "minecraft:custom_name": "\"Raw Binders\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0136F82919DBA011"
+					item: { components: { "ftbfiltersystem:filter": "or(item(refinedstorage:basic_processor)item(refinedstorage:improved_processor)item(refinedstorage:advanced_processor))", "minecraft:custom_name": "\"Processors\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "72EEAC233843FF5F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(refinedstorage:construction_core)item(refinedstorage:destruction_core))", "minecraft:custom_name": "\"RS Cores\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "0D12863863036F74"
+			tasks: [{
+				id: "2CC78CC8A92410FB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+}

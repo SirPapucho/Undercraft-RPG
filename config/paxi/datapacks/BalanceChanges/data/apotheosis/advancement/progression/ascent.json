@@ -1,0 +1,131 @@
+{
+    "parent": "apotheosis:progression/frontier",
+    "criteria": {
+        "diamond_helm": {
+            "conditions": {
+                "items": {
+                    "items": "minecraft:diamond_helmet",
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "diamond_chest": {
+            "conditions": {
+                "items": {
+                    "items": "minecraft:diamond_chestplate",
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "diamond_legs": {
+            "conditions": {
+                "items": {
+                    "items": "minecraft:diamond_leggings",
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "diamond_feet": {
+            "conditions": {
+                "items": {
+                    "items": "minecraft:diamond_boots",
+                    "predicates": {
+                        "apotheosis:item_with_rarity": {
+                            "rarities": [
+                                "apotheosis:common",
+                                "apotheosis:uncommon",
+                                "apotheosis:rare",
+                                "apotheosis:epic",
+                                "apotheosis:mythic"
+                            ]
+                        }
+                    }
+                },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "kill_eldorath": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "armageddon_mod:eldoraththe_ancient_builder"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.ascent.desc"
+        },
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.ascent.title"
+        }
+    },
+    "requirements": [
+        [
+            "diamond_helm"
+        ],
+        [
+            "diamond_chest"
+        ],
+        [
+            "diamond_legs"
+        ],
+        [
+            "diamond_feet"
+        ],
+        [
+            "kill_eldorath"
+        ]
+    ],
+    "sends_telemetry_event": true
+}

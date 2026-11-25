@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "despertar"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "1B9F98F8270F5881"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "20F42E21ED75997E"
+			height: 4.0d
+			id: "2E1A2DB65493F4A5"
+			image: "undercraft:textures/questpics/fase_1/iron_colossus.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 11.70325965788573d
+			y: 0.1987143277472292d
+		}
+		{
+			click_action: "none:"
+			dependency: "20F42E21ED75997E"
+			height: 1.5d
+			id: "506DA0227D94FA02"
+			image: "undercraft:textures/questpics/fase_1/iron_colossus_text.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 11.724398294295653d
+			y: -2.0350923567356602d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "7A9A965FB9513579"
+			image: "undercraft:textures/questpics/fase_1/copper_armor.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "1206A6C889EC7D7D"
+			image: "undercraft:textures/questpics/fase_1/copper_furnace.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 4.047104797133571d
+			y: 2.725225541864603d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "0B57DE1BBA3CDFAD"
+			image: "undercraft:textures/questpics/fase_1/botany_pot.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.2d
+			id: "7ED07D648FE5A0F1"
+			image: "undercraft:textures/questpics/fase_1/bonsai_tree.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "20F42E21ED75997E"
+			height: 1.2d
+			id: "1474A3B56CA2E0C3"
+			image: "undercraft:textures/questpics/ars/source_gem_example.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "20F42E21ED75997E"
+			height: 3.0d
+			id: "2EFD7C2EEE7E9DC8"
+			image: "undercraft:textures/questpics/fase_1/mechanical_press.png"
+			rotation: 0.0d
+			width: 1.7d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			id: "3EC7A8A78237E365"
+			image: "mekanism:item/dust_copper"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "3E0860D7CADF9405"
+			linked_quest: "173C69F26ACA4F6D"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "00F0CEB398ED94AB"
+			linked_quest: "63D53B8B06659EF4"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "026810F344CC6D7C"
+			linked_quest: "41D73E258F40D506"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "3C6AC9E7FC363532"
+			linked_quest: "7ADC9846344E351D"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "0D8108CD88C1EFD4"
+			linked_quest: "5C111EDD09D8ECEA"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "4E1EB5A56BC472F4"
+			linked_quest: "53917693958B8DE7"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "28408F814539ABC8"
+			linked_quest: "7EE0BB1A531E3AA4"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "258CB81C046B13AE"
+			linked_quest: "7407AEF93A4D5DEB"
+			x: 7.0d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			id: "55FAB3991D9B2E63"
+			rewards: [
+				{
+					count: 16
+					id: "4B5F88D8E187BE4D"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5E6509C0C2903E61"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					amount: 2L
+					id: "3FCB14C3F629925D"
+					type: "currency"
+				}
+			]
+			tasks: [{
+				id: "0B2016C79A9BCC82"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E5BCD99651B6F24"]
+			id: "3FB8F32E71824E52"
+			rewards: [{
+				amount: 5L
+				id: "71894D4498EBD5DC"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "471956B2FFAA7E02"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+				{
+					id: "32B2E810B373FBFC"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55FAB3991D9B2E63"]
+			disable_toast: true
+			id: "4D38674D7CCD6A0D"
+			rewards: [{
+				amount: 4L
+				id: "743E4E945E62DAEE"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "167E6E4052910579"
+				item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55FAB3991D9B2E63"]
+			id: "3E5BCD99651B6F24"
+			rewards: [{
+				amount: 4L
+				id: "0FD880AEA66C1AAE"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "147F643FFB1A2B35"
+				item: { count: 1, id: "pickletweaks:stone_paxel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB8F32E71824E52"]
+			id: "42A9F7D6675F03F5"
+			rewards: [
+				{
+					id: "3B4CA6DB6FECF11B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					amount: 12L
+					id: "325D4F60E3300060"
+					type: "currency"
+				}
+			]
+			tasks: [
+				{
+					id: "428E3015C4806265"
+					item: { count: 1, id: "minecraft:copper_helmet" }
+					type: "item"
+				}
+				{
+					id: "18D308810FC4CA6B"
+					item: { count: 1, id: "minecraft:copper_chestplate" }
+					type: "item"
+				}
+				{
+					id: "0F478A9DDE9BEE62"
+					item: { count: 1, id: "minecraft:copper_leggings" }
+					type: "item"
+				}
+				{
+					id: "2BBD6069C63191F8"
+					item: { count: 1, id: "minecraft:copper_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63D53B8B06659EF4"
+				"7EE0BB1A531E3AA4"
+			]
+			id: "7CC7679F6A38599A"
+			rewards: [
+				{
+					count: 2
+					id: "345DA42662301395"
+					item: {
+						count: 1
+						id: "minecraft:raw_iron_block"
+					}
+					type: "item"
+				}
+				{
+					amount: 10L
+					id: "610C052935A0C432"
+					type: "currency"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0343730D72661E10"
+					item: { count: 1, id: "armageddon_mod:iron_remote" }
+					type: "item"
+				}
+				{
+					advancement: "armageddon_mod:the_iron_keeper"
+					criterion: ""
+					id: "7DFFE0362BF83D90"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB8F32E71824E52"]
+			id: "77F3538B72C86900"
+			rewards: [{
+				count: 2
+				id: "00F8997A4DCB7390"
+				item: {
+					count: 1
+					id: "ironfurnaces:upgrade_copper"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "758C56EFF463A339"
+				item: { count: 1, id: "ironfurnaces:copper_furnace" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FB8F32E71824E52"]
+			icon_scale: 1.2d
+			id: "58A945E978135EDA"
+			rewards: [{
+				amount: 2L
+				id: "2B6BB4FB2A92F88D"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "5A3062ECBC281C9F"
+				item: { count: 1, id: "shieldexp:wooden_shield" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42A9F7D6675F03F5"]
+			hide_until_deps_complete: true
+			id: "20F42E21ED75997E"
+			rewards: [{
+				auto: "invisible"
+				command: "/astages add {p} Tier_1_Coloso_uso"
+				id: "0A8FCD8DDC309D59"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "22CCDAA31F840F53"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55FAB3991D9B2E63"]
+			id: "41D28A825656AB3B"
+			rewards: [{
+				amount: 4L
+				id: "03556C2C3B1233DD"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "580ACEC090AC1853"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FB8F32E71824E52"]
+			id: "26BC13CA12D50087"
+			rewards: [
+				{
+					count: 3
+					id: "5C30AB3EDC944EF7"
+					item: {
+						count: 1
+						id: "minecraft:copper_block"
+					}
+					type: "item"
+				}
+				{
+					amount: 5L
+					id: "3F2ECD02E38162C1"
+					type: "currency"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "05550C87531809B7"
+				item: { count: 1, id: "ore_hammer:crushing_hammer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55FAB3991D9B2E63"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "2440152D8D5FE69F"
+			rewards: [{
+				id: "64300C4E61E988E3"
+				item: {
+					count: 1
+					id: "minecraft:lantern"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24BB1610D80C9AD9"
+				item: { count: 1, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+}

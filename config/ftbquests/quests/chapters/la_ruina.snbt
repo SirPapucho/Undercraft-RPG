@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "la_ruina"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "3E1A5E7CAF23316E"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "20DC11EF995119AE"
+			height: 3.0d
+			id: "3C3F525B57F80E7B"
+			image: "undercraft:textures/questpics/fase_5/wither.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "20DC11EF995119AE"
+			height: 2.0d
+			id: "5F85BC0FAC978632"
+			image: "undercraft:textures/questpics/fase_5/wither-reincarnated-logo.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1CC66163637D9D1C"]
+			hide_until_deps_complete: true
+			id: "777546DC8F368C1F"
+			tasks: [{
+				id: "55C6491132156F0F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A47FD7D5C2E74F1"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "20DC11EF995119AE"
+			tasks: [
+				{
+					count: 3L
+					id: "35B4F88502D069D6"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1BFFDF0B9C872924"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"1CC66163637D9D1C"
+				"777546DC8F368C1F"
+			]
+			hide_until_deps_complete: true
+			id: "47D5BC29CED2CE20"
+			tasks: [{
+				id: "1152D9BB763A4053"
+				item: { count: 1, id: "armageddon_mod:fiery_wither_skull" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55A58CFDFF8B09DE"]
+			icon: {
+				id: "cataclysm:burning_ashes"
+			}
+			id: "1A47FD7D5C2E74F1"
+			tasks: [
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "3A60288A8406E749"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "62D677E3BD059951"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47D5BC29CED2CE20"]
+			id: "55A58CFDFF8B09DE"
+			tasks: [{
+				id: "667D0529040D6F0D"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

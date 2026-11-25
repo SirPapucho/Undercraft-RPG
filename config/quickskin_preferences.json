@@ -1,0 +1,14 @@
+{
+  "players": {
+    "eba86ee7-2127-40a2-ad53-ba179a897c2b": {
+      "lastSkinId": "sha256-76b70f24092cb1fbebb0420c7711c7cd7621d0dcad6dc68179af54e657c7ee01",
+      "lastModelType": "slim",
+      "favorites": {}
+    },
+    "344552fa-b9ea-3a8d-8059-80c152e7465f": {
+      "lastSkinId": "sha256-824715bae0def845d8330b45ca79478345505e9e22e207ee79256a46d363a428",
+      "lastModelType": "auto",
+      "favorites": {}
+    }
+  }
+}

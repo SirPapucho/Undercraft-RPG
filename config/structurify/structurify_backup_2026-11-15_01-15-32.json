@@ -1,0 +1,135 @@
+{
+  "config_version": "2.0.43",
+  "config_datetime": "2026-10-30_10-23-06",
+  "general": {
+    "prevent_structure_overlap": true
+  },
+  "structure_namespaces": [
+    {
+      "name": "apotheosis",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "ars_additions",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "ars_elemental",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "ars_nouveau",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "ati_structures",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "beautify",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "betterjungletemples",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "betteroceanmonuments",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 400
+    },
+    {
+      "name": "betterstrongholds",
+      "override_global_distance_from_world_center": true,
+      "min_distance_from_world_center": 2000
+    },
+    {
+      "name": "cataclysm",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 500
+    },
+    {
+      "name": "global",
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 100
+    },
+    {
+      "name": "irons_spellbooks",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "mes",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "mmr",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "nova_structures",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "takesapillage",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    },
+    {
+      "name": "towns_and_towers",
+      "override_global_distance_from_world_center": true,
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 200
+    }
+  ],
+  "structures": [
+    {
+      "name": "ars_additions:arcane_library",
+      "is_disabled": true
+    },
+    {
+      "name": "ars_additions:nexus_tower",
+      "is_disabled": true
+    },
+    {
+      "name": "ars_elemental:starbuncle_shrine",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:bunker",
+      "is_disabled": true
+    },
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    }
+  ],
+  "structure_sets": [],
+  "structure_template_pools": []
+}

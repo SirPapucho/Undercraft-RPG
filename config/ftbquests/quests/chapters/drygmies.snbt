@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "drygmies"
+	group: "5BA41BF62FC698A4"
+	icon: {
+		id: "ars_nouveau:drygmy_charm"
+	}
+	id: "1AE114EF0FAC4293"
+	images: [
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "2D81CEE90A668C31"
+			image: "undercraft:textures/questpics/ars/sheep_jar_image.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "60675B74F7359E70"
+			image: "undercraft:textures/questpics/ars/drygmy.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			id: "58E78936FCDEFCCF"
+			image: "ars_nouveau:item/dominion_wand"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.1757815671965375d
+			y: 1.019709516242525d
+		}
+	]
+	order_index: 1
+	quest_links: [{
+		id: "459F30DAAAD69BA2"
+		linked_quest: "7CCD5D6BA7F65180"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["7CCD5D6BA7F65180"]
+			id: "19682AD389D3B8D8"
+			tasks: [
+				{
+					id: "0F037C22A641A3C7"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+				{
+					id: "78CC2EF42E4DDD75"
+					item: { count: 1, id: "ars_nouveau:drygmy_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["19682AD389D3B8D8"]
+			id: "2DED40DE11E59D3D"
+			tasks: [{
+				id: "3A491255C1DC66EB"
+				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1470AF6840EECE73"
+				"5924FF4A3B414984"
+			]
+			icon: {
+				id: "ars_nouveau:drygmy_stone"
+			}
+			icon_scale: 2.0d
+			id: "3B943F7C432A270D"
+			shape: "none"
+			tasks: [{
+				id: "7F0C40B6C6226C7A"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ars_nouveau:drygmy_stone"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DED40DE11E59D3D"]
+			id: "75D409301DA25F66"
+			tasks: [{
+				id: "534F7E88F68F572B"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75D409301DA25F66"]
+			id: "5924FF4A3B414984"
+			tasks: [{
+				id: "49B37400BC03C894"
+				item: { count: 1, id: "ars_nouveau:ritual_containment" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75D409301DA25F66"]
+			id: "1470AF6840EECE73"
+			tasks: [{
+				id: "0F81800CB66EDC2E"
+				item: { count: 1, id: "ars_nouveau:mob_jar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+}

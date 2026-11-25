@@ -1,0 +1,3 @@
+r | reload
+tps | neoforge tps
+getInventoryIds | crafttweaker inventory registryNames

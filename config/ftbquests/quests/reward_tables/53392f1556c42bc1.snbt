@@ -1,0 +1,136 @@
+{
+	id: "53392F1556C42BC1"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 10
+			id: "6C6646101F055380"
+			item: {
+				count: 1
+				id: "minersdelight:insect_sandwich"
+			}
+		}
+		{
+			count: 10
+			id: "09DF85D512149F04"
+			item: {
+				count: 1
+				id: "minersdelight:squid_sandwich"
+			}
+		}
+		{
+			count: 5
+			id: "46E5D34F265FFC8B"
+			item: {
+				count: 1
+				id: "minersdelight:bowl_of_stuffed_squid"
+			}
+		}
+		{
+			count: 10
+			id: "5EF21D85F549CE2C"
+			item: {
+				count: 1
+				id: "farmersdelight:egg_sandwich"
+			}
+		}
+		{
+			count: 8
+			id: "0B724FBE982A0FDA"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+		}
+		{
+			count: 12
+			id: "6DF02C656BD541EC"
+			item: {
+				count: 1
+				id: "farmersdelight:mutton_wrap"
+			}
+		}
+		{
+			count: 8
+			id: "38C91632EC28B2ED"
+			item: {
+				count: 1
+				id: "farmersdelight:cooked_rice"
+			}
+		}
+		{
+			count: 5
+			id: "6E52CA4B2AB42308"
+			item: {
+				count: 1
+				id: "farmersdelight:beef_stew"
+			}
+		}
+		{
+			count: 3
+			id: "19589632ED0CF473"
+			item: {
+				count: 1
+				id: "farmersdelight:bacon_and_eggs"
+			}
+		}
+		{ id: "720FEE636F453713", item: { count: 1, id: "farmersdelight:stuffed_pumpkin_block" } }
+		{
+			count: 3
+			id: "682083F994C2BDFF"
+			item: {
+				count: 1
+				id: "farmersdelight:mushroom_rice"
+			}
+		}
+		{
+			count: 3
+			id: "44C647FFD01E6ECF"
+			item: {
+				count: 1
+				id: "mynethersdelight:scotch_eggs"
+			}
+		}
+		{
+			count: 8
+			id: "42677C6FBF24AD9C"
+			item: {
+				count: 1
+				id: "mynethersdelight:cooked_loin"
+			}
+		}
+		{
+			count: 8
+			id: "1CCC56DB4F013068"
+			item: {
+				count: 1
+				id: "mynethersdelight:red_loin_on_a_stick"
+			}
+		}
+		{
+			count: 8
+			id: "529B6B207A9928A4"
+			item: {
+				count: 1
+				id: "minersdelight:nutritional_bar"
+			}
+		}
+		{
+			count: 5
+			id: "2DDEE7C8E8EE2DEE"
+			item: {
+				count: 1
+				id: "mynethersdelight:chilidog"
+			}
+		}
+		{
+			count: 8
+			id: "6E2D1CDA32E13C0C"
+			item: {
+				count: 1
+				id: "mynethersdelight:hotdog"
+			}
+		}
+	]
+}

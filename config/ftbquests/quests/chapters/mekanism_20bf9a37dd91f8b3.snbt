@@ -1,0 +1,144 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_20bf9a37dd91f8b3"
+	group: "63FE7365F2A2C134"
+	icon: {
+		id: "mekanismgenerators:advanced_solar_generator"
+	}
+	id: "20BF9A37DD91F8B3"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "454E4132E9E485AA"
+			image: "undercraft:textures/questpics/create/passive_generators_text.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "5C3273B7B8E71008"
+			height: 1.0d
+			id: "2ECFE2344456B2EB"
+			image: "undercraft:textures/questpics/create/active_generators_text.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [{
+		id: "2BAC04179799D401"
+		linked_quest: "5C3273B7B8E71008"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "23C94CAE51E0C9DB"
+			shape: "none"
+			tasks: [{
+				id: "1C6428C2BBA3BE42"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "24860D7D143F4018"
+			shape: "none"
+			tasks: [{
+				id: "0B492B26B7FCE868"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "5E99387CFAF15E99"
+			shape: "none"
+			tasks: [{
+				id: "41041141DAE5531B"
+				item: { count: 1, id: "mekanismgenerators:solar_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "mekanismgenerators:advanced_solar_generator"
+			}
+			icon_scale: 2.0d
+			id: "19642B83554917FB"
+			shape: "none"
+			tasks: [{
+				id: "708015E64F488EF2"
+				item: { count: 1, id: "mekanismgenerators:advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "2623FBBD6CFCB4A8"
+			shape: "none"
+			tasks: [{
+				id: "6824141D3ECB1608"
+				item: { count: 1, id: "mekanismgenerators:bio_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "230EF2B139D64B2C"
+			shape: "none"
+			tasks: [{
+				id: "651437C6E4F10E4A"
+				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5C3273B7B8E71008"]
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
+			id: "6BF1BA8364EB4861"
+			shape: "none"
+			tasks: [{
+				id: "21C0C1CB8E2149CC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube))", "minecraft:custom_name": "\"Energy Cubes\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

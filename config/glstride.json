@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "directStateAccess": true,
+  "reuseBufferCapacity": true,
+  "vertexBufferPool": false,
+  "maximumPooledBuffers": 256
+}

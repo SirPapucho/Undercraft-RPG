@@ -1,0 +1,17 @@
+[
+    {
+        "mob": [
+            "alexsmobs:crimson_mosquito",
+            "born_in_chaos:corpse_maggot",
+            "born_in_chaos:bloody_gadfly",
+            "born_in_chaos:swarmer",
+            "born_in_chaos:corpse_fly",
+            "born_in_chaos:mother_spider",
+            "born_in_chaos:baby_spider",
+            "born_in_chaos:glutton_fish",
+            "born_in_chaos:siamese_skeletons"
+        ],
+            "when": "onjoin",
+            "result": "deny"
+    }
+]

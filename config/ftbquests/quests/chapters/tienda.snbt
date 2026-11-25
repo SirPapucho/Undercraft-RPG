@@ -1,0 +1,715 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tienda"
+	group: "4B09857A6432255F"
+	icon: {
+		components: {
+			"ftbquests:icon": "moonlight:textures/gui/sprites/media/marketplace.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "029024B5EEEC2E2E"
+	images: [
+		{
+			click_action: "none:"
+			height: 1.1875d
+			id: "7B4D9236E7D8C0B7"
+			image: "undercraft:textures/questpics/tienda/buy.png"
+			rotation: 0.0d
+			width: 4.1875d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0625d
+			id: "14035C5C52C80ADD"
+			image: "undercraft:textures/questpics/tienda/sell.png"
+			rotation: 0.0d
+			width: 3.625d
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36D4161FBA4269B2"
+			rewards: [{
+				amount: 5L
+				id: "3096F8FFED160389"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "32319F9DAFCF9310"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								feline_aura: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										crouch_speed_bonus: {
+											initialQuality: 8
+										}
+										fall_damage_reduction: {
+											initialQuality: 2
+										}
+										radius: {
+											initialQuality: 9
+										}
+									}
+								}
+								nine_lives: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										evasion_chance: {
+											initialQuality: 3
+										}
+										survival_chance: {
+											initialQuality: 7
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:kitty_slippers"
+			}
+			id: "4BB6BDD54DAD5A5D"
+			repeat_cooldown: 1800
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49E842312AF7636A"
+				table_id: 2481329083531099862L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
+				id: "717B3B7B5CE32BBE"
+				tags: ["price_50"]
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								digging: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bare_hands_speed: {
+											initialQuality: 8
+										}
+										momentum_per_block: {
+											initialQuality: 4
+										}
+										momentum_window: {
+											initialQuality: 7
+										}
+										speed: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:digging_claws"
+			}
+			id: "11A58628DDE6C3AB"
+			repeat_cooldown: 7200
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "618AAE82E3B8F88D"
+				table_id: 4441172652526981193L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "3882555914EEF234"
+				tags: ["price_100"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								vision: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 3
+										}
+										damage_bonus: {
+											initialQuality: 8
+										}
+										miss_chance: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "artifacts:night_vision_goggles"
+			}
+			id: "02E2C6608B293F7C"
+			repeat_cooldown: 21600
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40273D79A08C39E6"
+				table_id: 8394377966100227026L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "4DF49355E544854D"
+				tags: ["price_200"]
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "apotheosis:godforged_pearl"
+			}
+			id: "348E4A87BDCC12D9"
+			repeat_cooldown: 1800
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55DEB20D2D1F1C68"
+				table_id: 183459176832984828L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "213DD68C7AF3AF9E"
+				tags: ["price_120"]
+				type: "custom"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			id: "7D7933C2B7A2F5BD"
+			shape: "diamond"
+			tasks: [{
+				id: "7955D24D951FDBD9"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "3B93213ECB331D52"
+			shape: "diamond"
+			tasks: [{
+				id: "36DAC96FB2851B68"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "sophisticatedbackpacks:upgrade_base"
+			}
+			id: "7795CC658BB04EBA"
+			repeat_cooldown: 1800
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				id: "55A3F432BB18558C"
+				table_id: 5771596385078421040L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
+				id: "0D293250EC7B0DEE"
+				tags: ["price_50"]
+				type: "custom"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "functionalstorage:netherite_upgrade"
+			}
+			id: "018C8B503871E9B7"
+			repeat_cooldown: 1800
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719B5C3A707AD563"
+				table_id: 8810962767607157273L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
+				id: "496D60B3FA26871C"
+				tags: ["price_75"]
+				type: "custom"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"powah:energy_stored": 2000000000L
+				}
+				id: "powah:battery_nitro"
+			}
+			id: "3E7A853FE40434DD"
+			repeat_cooldown: 3600
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4F28EDBB8EF9B5"
+				table_id: 287583926008157026L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "2A011507758869D5"
+				tags: ["price_120"]
+				type: "custom"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:abjuration_essence"
+			}
+			id: "51AC00CED5A3D970"
+			repeat_cooldown: 1800
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CA19CF93C978480"
+				table_id: 5993009108875851048L
+				type: "all_table"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
+				id: "3720087C3F1E4257"
+				tags: ["price_75"]
+				type: "custom"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:wither"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "618F2AF86CD8F6B2"
+			repeat_cooldown: 43200
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42648FB91837E621"
+				table_id: 379316010851298686L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "316AAA914F1389C5"
+				tags: ["price_250"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "7E2BACA3DAE94989"
+			repeat_cooldown: 3600
+			rewards: [{
+				id: "482FFAF6311980E8"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "237E5723723FD629"
+				tags: ["price_300"]
+				type: "custom"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			id: "6BF66A4C47B86610"
+			repeat_cooldown: 3600
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D4655F4FBBFB025"
+				table_id: 36801569612237190L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "07B8CB642E84877B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(irons_spellbooks:scroll))", "minecraft:custom_name": "\"Irons Scroll\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "590B5C7A22211D88"
+			repeat_cooldown: 21600
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57189796CCFB7336"
+				table_id: 5639307633995339667L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:gold_coin"
+				}
+				id: "071CE87DCFC69FE7"
+				tags: ["price_80"]
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "4DA6C1B876CD3C11"
+			rewards: [{
+				amount: 2L
+				auto: "enabled"
+				id: "4CBC4568A3C847C3"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3D805A762AD1365C"
+				item: { count: 1, id: "minecraft:copper_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "1B932B48667CE42A"
+			rewards: [{
+				amount: 5L
+				auto: "enabled"
+				id: "36EA24F940A74F25"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "16C1858019EF3D16"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "189F8C4C49AD1DA3"
+			rewards: [{
+				amount: 15L
+				id: "3B7C7507D5F46B6D"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4BCC1D47A1BEB735"
+				item: { count: 1, id: "minecraft:gold_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "2D741CF4D79219B8"
+			rewards: [{
+				amount: 10L
+				id: "646565A5A2928B96"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1A0613F003373D80"
+				item: { count: 1, id: "minecraft:emerald_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "minecraft:diamond_block"
+			}
+			id: "518CE67000E5CE08"
+			rewards: [{
+				amount: 25L
+				id: "0723A618887AC737"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "20A08DF1E0F85F6E"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "01CF544A825273E3"
+			rewards: [{
+				amount: 10L
+				id: "608E168ED2002603"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "61C8FDBD7C8412B5"
+				item: { count: 1, id: "minecraft:copper_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "556E5C291CA2A19A"
+			rewards: [{
+				amount: 25L
+				id: "7E5B5C77D518479F"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "376DFDFDEADA1C3A"
+				item: { count: 1, id: "minecraft:iron_block" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "5ACD1018BA723553"
+			rewards: [{
+				amount: 50L
+				id: "2CFFF702B922C185"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "3337A6D4D5AE8A4C"
+				item: { count: 1, id: "minecraft:emerald_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "4D62AB3F8F3412C4"
+			rewards: [{
+				amount: 75L
+				id: "0B06F79284C1D904"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "532797270B528409"
+				item: { count: 1, id: "minecraft:gold_block" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "0057CD4D8940B556"
+			rewards: [{
+				amount: 125L
+				id: "5309A986474E62E2"
+				type: "currency"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "52E543ED503B91BB"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "kubejs:token_estructura"
+			}
+			id: "14DC8782F02AD852"
+			repeat_cooldown: 21600
+			rewards: [{
+				id: "5E6E2685F4E1CF49"
+				item: {
+					count: 1
+					id: "kubejs:token_estructura"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:crystal_coin"
+				}
+				id: "053987309416CB1B"
+				tags: ["price_250"]
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "farmersdelight:chicken_sandwich"
+			}
+			id: "38A5446FE8570E69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "295382384499E40B"
+				table_id: 5996876147517041601L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "magic_coins:silver_coin"
+				}
+				id: "64E019B1B9CD7C4F"
+				tags: ["price_10"]
+				type: "custom"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,379 @@
+{
+	autofocus_id: "32F334B4CFF5C7D6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "las_profunidades"
+	group: "17D00820CFF86494"
+	icon: {
+		id: "cataclysm:abyssal_egg"
+	}
+	id: "70F63B805B9754D2"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "39C4C46224DFD669"
+			height: 1.5d
+			id: "0DADA392087D77D0"
+			image: "minecraft:item/trident"
+			rotation: 0.0d
+			text_h_align: "end"
+			width: 1.5d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "3E4D4EBDD12EE558"
+			height: 1.0d
+			id: "4D11BD26B5C307DC"
+			image: "ftbchunks:textures/compass_e.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "3E4D4EBDD12EE558"
+			height: 1.2d
+			id: "471A65E42A3C9AF1"
+			image: "ftbchunks:textures/compass_w.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "32F334B4CFF5C7D6"
+			height: 3.0d
+			id: "364789B15DFA9293"
+			image: "undercraft:textures/questpics/fase_4/deepling.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 21.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "32F334B4CFF5C7D6"
+			height: 3.0d
+			id: "5A2A350F6E19DD35"
+			image: "undercraft:textures/questpics/fase_4/brute_deepling.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 21.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "32F334B4CFF5C7D6"
+			height: 1.5d
+			id: "39BC09466700E307"
+			image: "undercraft:textures/questpics/fase_4/the_leviathan_text.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "32F334B4CFF5C7D6"
+			height: 8.0d
+			id: "5F7B2733425624A0"
+			image: "undercraft:textures/questpics/fase_4/the_leviathan.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "6613DD7A238AC0B8"
+			height: 3.0d
+			id: "3067B3D19DB39C2B"
+			image: "undercraft:textures/questpics/fase_4/pirate.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "6613DD7A238AC0B8"
+			height: 4.0d
+			id: "1F69DB206EA4EFE3"
+			image: "undercraft:textures/questpics/fase_4/kraken_cannon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "6613DD7A238AC0B8"
+			height: 1.5d
+			id: "48BE3B35A0EAB5EB"
+			image: "undercraft:textures/questpics/fase_4/kraken_text.png"
+			rotation: -20.0d
+			width: 7.0d
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "3E4D4EBDD12EE558"
+			height: 1.0d
+			id: "77083EEBCFB157AB"
+			image: "ftbchunks:textures/compass_n.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "32F334B4CFF5C7D6"
+			height: 2.0d
+			id: "1ECAAFD6BF1CCAA6"
+			image: "undercraft:textures/questpics/neo_vitae/neo_vitae_logo.png"
+			rotation: 30.0d
+			width: 4.0d
+			x: 2.0d
+			y: 17.0d
+		}
+	]
+	order_index: 3
+	quest_links: [
+		{
+			id: "69E190E5E146FD09"
+			linked_quest: "1A5A815D195E49BC"
+			shape: "none"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			id: "1FFDB0C0A29CC972"
+			linked_quest: "21FF60D45512F53C"
+			shape: "diamond"
+			x: -1.0d
+			y: 18.0d
+		}
+		{
+			id: "71597D7D40A19957"
+			linked_quest: "3DDF15A64E2BA01A"
+			shape: "diamond"
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			id: "3565065514BB39FD"
+			linked_quest: "448A8B92AD406946"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			id: "4B19D4DA0DC8044D"
+			linked_quest: "26EACB737FF15ABE"
+			shape: "none"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			id: "006E9E11E2B4A24D"
+			linked_quest: "57ED07D85C7A4817"
+			x: -1.5d
+			y: 19.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["3E4D4EBDD12EE558"]
+			hide_until_deps_complete: true
+			id: "39C4C46224DFD669"
+			rewards: [{
+				auto: "invisible"
+				command: "/astages add {p} monumento_acuatico"
+				id: "2918E6299FBB9167"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4FD3D6BE3DD46275"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C4C46224DFD669"]
+			icon: {
+				components: {
+					"ftbquests:icon": "undercraft:textures/questpics/fase_4/elder_guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "22191CFE5B7977B5"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "7B7F40E67DDDE023"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26EACB737FF15ABE"]
+			icon: {
+				id: "cataclysm:abyssal_egg"
+			}
+			icon_scale: 2.0d
+			id: "1CC66163637D9D1C"
+			shape: "none"
+			size: 1.3d
+			tasks: [
+				{
+					id: "759F5F22D0A35993"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "2575E8FFB3737E7A"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 22.250000000000004d
+		}
+		{
+			dependencies: ["32F334B4CFF5C7D6"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "72E83051FA059A19"
+			rewards: [{
+				auto: "invisible"
+				command: "/astages add {p} ciudad_hundida"
+				id: "74854C18AEF8D6D0"
+				type: "command"
+			}]
+			tasks: [{
+				id: "66D89A7BF725A28B"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["20CC9B1135A19EEE"]
+			hide_until_deps_complete: true
+			id: "32F334B4CFF5C7D6"
+			shape: "gear"
+			tasks: [{
+				id: "513B2D54AC04C920"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["32F334B4CFF5C7D6"]
+			id: "741617D0E452AEF8"
+			optional: true
+			tasks: [
+				{
+					id: "417AA93BF8AA10BE"
+					item: { count: 1, id: "justdirethings:polymorphic_catalyst" }
+					type: "item"
+				}
+				{
+					id: "70FBFD48DA9CDC3D"
+					item: { count: 1, id: "minecraft:crying_obsidian" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3CDD38E5375109EA"]
+			icon: {
+				components: {
+					"ftbquests:icon": "undercraft:textures/questpics/fase_4/kraken.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "58AA3D6517D78E6C"
+			shape: "none"
+			size: 3.8125d
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_kraken"
+				criterion: ""
+				id: "0A322CFDEA69D5A7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["22191CFE5B7977B5"]
+			id: "6613DD7A238AC0B8"
+			rewards: [{
+				auto: "invisible"
+				command: "/astages add {p} nave_del_kraken"
+				id: "0032DE1BE483FAB1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "02B6D3BB8B779401"
+				item: { count: 1, id: "armageddon_mod:ancient_prism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6613DD7A238AC0B8"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "block_factorys_bosses:kraken_cannon_item"
+			}
+			icon_scale: 2.0d
+			id: "3CDD38E5375109EA"
+			shape: "none"
+			size: 1.2d
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "block_factorys_bosses:item/kraken_angry"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "584D61042C535115"
+				structure: "block_factorys_bosses:kraken_ship"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58AA3D6517D78E6C"]
+			id: "20CC9B1135A19EEE"
+			tasks: [{
+				id: "55AE55055F0E7542"
+				item: { count: 1, id: "block_factorys_bosses:kraken_tooth" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+	]
+}

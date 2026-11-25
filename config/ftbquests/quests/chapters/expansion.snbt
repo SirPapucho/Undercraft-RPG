@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "expansion"
+	group: "17D00820CFF86494"
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "justdirethings:ferricore_block"
+	}
+	id: "5C09DB2740EA4072"
+	images: [
+		{
+			click_action: "none:"
+			dependency: "7CC7679F6A38599A"
+			height: 2.5d
+			id: "0587F58610E0ED25"
+			image: "undercraft:textures/questpics/fase_2/iron_armor.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "2315C2806AC875D6"
+			height: 3.8d
+			id: "400A666ABA60B5FB"
+			image: "undercraft:textures/questpics/fase_2/goblin_lord.png"
+			rotation: 0.0d
+			width: 2.7d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "2315C2806AC875D6"
+			height: 1.75d
+			id: "171A0C1CC8A00142"
+			image: "undercraft:textures/questpics/fase_2/goblin_lord_text.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			click_action: "open_quest:7992D4122B42DBEB"
+			dependency: "5A2EAE8CAE54EA74"
+			height: 1.5d
+			id: "4AABED7FFADD03DF"
+			image: "simplyswords:item/iron_scythe"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			dependency: "2315C2806AC875D6"
+			height: 2.144359816507843d
+			id: "793DDA2C07D1F30D"
+			image: "undercraft:textures/questpics/jdt/goo_spread.png"
+			rotation: 0.0d
+			width: 2.144359816507843d
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			click_action: "none:"
+			dependency: "2315C2806AC875D6"
+			height: 3.5304021316567797d
+			id: "202CC9B4FC1EC5B5"
+			image: "undercraft:textures/questpics/ars/apparatus_setup.png"
+			rotation: 0.0d
+			width: 3.5304021316567797d
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [
+		{
+			id: "3575397CF8C5B688"
+			linked_quest: "7CCD5D6BA7F65180"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "4BE29C9A854DBEBA"
+			linked_quest: "240707DBDC0B03F8"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "33ECAD7A290C1D8A"
+			linked_quest: "2039117F0F094A87"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "1CC9CDBD5AACC540"
+			linked_quest: "6EED4ED9C014841C"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "7F876BEA32787D68"
+			linked_quest: "013392E1A0096E4E"
+			shape: "none"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "6A8723454076022A"
+			linked_quest: "75338E38823C3C6B"
+			x: 5.5d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7CC7679F6A38599A"]
+			hide_until_deps_complete: true
+			id: "5A2EAE8CAE54EA74"
+			rewards: [{
+				amount: 4L
+				id: "38EA90686BE230ED"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "5DBA0DA48DE9BA98"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					id: "286CE572E6978877"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7CCD5D6BA7F65180"
+				"240707DBDC0B03F8"
+			]
+			hide_until_deps_complete: false
+			id: "34F5092E767F18BA"
+			rewards: [{
+				amount: 15L
+				id: "1FCDB79164F68B68"
+				type: "currency"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "04A3221A2EE5B9CC"
+					item: { count: 1, id: "armageddon_mod:strange_coin" }
+					type: "item"
+				}
+				{
+					advancement: "armageddon_mod:the_gold_keeper"
+					criterion: ""
+					id: "5B8D0227897591F4"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			hide_until_deps_complete: false
+			id: "1E0BE013CFC96C58"
+			rewards: [
+				{
+					id: "0B34EA9DE102E7C6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					amount: 16L
+					id: "2218C156EBC8D419"
+					type: "currency"
+				}
+			]
+			tasks: [
+				{
+					id: "3CF7478502F67BD3"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "0175F0BBE5313D03"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6A0073CA6609B000"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "4E6B2DAC28EF9FBB"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			hide_until_deps_complete: false
+			id: "1D134E43079B6E40"
+			rewards: [{
+				amount: 2L
+				id: "6920212A7B00CB2C"
+				type: "currency"
+			}]
+			tasks: [{
+				id: "26BB5A722464B6F5"
+				item: { count: 1, id: "pickletweaks:iron_paxel" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			hide_until_deps_complete: false
+			icon: {
+				id: "shieldexp:iron_shield"
+			}
+			icon_scale: 1.2d
+			id: "1404EFF0AF3652FC"
+			rewards: [{
+				amount: 5L
+				id: "0C4759FF50D7BCDD"
+				type: "currency"
+			}]
+			tasks: [
+				{
+					id: "148A68F98B6DAF38"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+				{
+					id: "304B7E5716D1081B"
+					item: { count: 1, id: "shieldexp:iron_shield" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E0BE013CFC96C58"]
+			hide_until_deps_complete: true
+			id: "2315C2806AC875D6"
+			rewards: [{
+				auto: "invisible"
+				command: "/astages add {p} Tier_2_Goblin_uso"
+				id: "305D3DDD4F489268"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "60136BB13C0F2293"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2039117F0F094A87"]
+			hide_until_deps_complete: false
+			id: "7E25EA83584FE0FD"
+			optional: true
+			rewards: [{
+				id: "2EA6F5B153DFEE84"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "5114C2CBCA36A086"
+					item: { count: 1, id: "minecraft:green_wool" }
+					type: "item"
+				}
+				{
+					id: "138EE025EA206736"
+					item: { count: 1, id: "minecraft:slime_block" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			hide_until_deps_complete: false
+			icon: {
+				id: "hangglider:hang_glider"
+			}
+			id: "14A07D6BB23D8862"
+			optional: true
+			tasks: [{
+				id: "173941B6E9941C43"
+				item: { count: 1, id: "hangglider:hang_glider" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E25EA83584FE0FD"]
+			hide_until_deps_complete: false
+			id: "1D0C2C7D95DBAA95"
+			optional: true
+			rewards: [{
+				id: "719DCF1169B84B26"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "2038DF9788EC3E4D"
+					item: { count: 1, id: "usefulslime:slime_sling" }
+					type: "item"
+				}
+				{
+					id: "03FA7C32ADF3B630"
+					item: { count: 1, id: "usefulslime:slime_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+	]
+}

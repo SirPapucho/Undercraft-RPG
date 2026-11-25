@@ -1,0 +1,73 @@
+{
+    "parent": "apotheosis:progression/haven",
+    "criteria": {
+        "copper_helm": {
+            "conditions": {
+                "items": { "items": "armageddon_mod:gilded_armor_helmet" },
+                "slots": "head"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "copper_chest": {
+            "conditions": {
+                "items": { "items": "armageddon_mod:gilded_armor_chestplate" },
+                "slots": "chest"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "copper_legs": {
+            "conditions": {
+                "items": { "items": "armageddon_mod:gilded_armor_leggings" },
+                "slots": "legs"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "copper_feet": {
+            "conditions": {
+                "items": { "items": "armageddon_mod:gilded_armor_boots" },
+                "slots": "feet"
+            },
+            "trigger": "apotheosis:equipped_item"
+        },
+        "kill_goblin_lord": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "advancements": {
+                                    "armageddon_mod:the_gold_keeper": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "background": "apotheosis:textures/advancements/bg/apoth.png",
+        "description": {
+            "translate": "advancements.apotheosis.progression.frontier.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_sword"
+        },
+        "title": {
+            "translate": "advancements.apotheosis.progression.frontier.title"
+        }
+    },
+    "requirements": [
+        ["copper_helm"],
+        ["copper_chest"],
+        ["copper_legs"],
+        ["copper_feet"],
+        ["kill_goblin_lord"]
+    ],
+    "sends_telemetry_event": true
+}

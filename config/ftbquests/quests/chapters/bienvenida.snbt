@@ -1,0 +1,158 @@
+{
+	autofocus_id: "5EFD4D12B3BCF187"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenida"
+	group: "4B09857A6432255F"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "5297B106655982BF"
+	images: [{
+		click_action: "none:"
+		height: 3.0d
+		id: "6780F671A3C40048"
+		image: "guideme:textures/gui/sprites/recipe_arrow_filled.png"
+		rotation: 180.0d
+		width: 7.0d
+		x: -5.5d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42938E4F6DC3CAD6"
+			rewards: [{
+				id: "21F801B4969A4806"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "505F933E80490F6A"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:painting"
+			}
+			id: "519D82380FBBEF88"
+			rewards: [{
+				id: "319148E699D3237C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "09990498226DA802"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+			}
+			id: "51C7271A998F6E2F"
+			rewards: [{
+				id: "7B274DE836095F93"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3015B8131C84E25C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "faewulf_lib:textures/gui/sprites/icon/discord.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2ECE0FD141F3E690"
+			rewards: [{
+				id: "1E06F2804AC6BAD5"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2D205E49300E0D34"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "5EFD4D12B3BCF187"
+			rewards: [{
+				auto: "enabled"
+				id: "2158EFD0B30A3F93"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:clock"
+				}
+				id: "753C2A1DABAB7ABF"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/controller"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "04D9B443CBC8A3A8"
+			rewards: [{
+				id: "63A40D03D99ADA57"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "66624DD10D01A76C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:command_block"
+			}
+			icon_scale: 1.1d
+			id: "5BF799A8D6A13F0F"
+			tasks: [{
+				id: "50A7C391F1CA33E8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

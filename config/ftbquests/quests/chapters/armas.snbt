@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas"
+	group: "4B09857A6432255F"
+	icon: {
+		id: "irons_spellbooks:decrepit_scythe"
+	}
+	id: "1244D13766CC8135"
+	images: [ ]
+	order_index: 4
+	quest_links: [
+		{
+			id: "08657FB677C8DBC4"
+			linked_quest: "5A2EAE8CAE54EA74"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "79A7F0D4F9DB1FA6"
+			linked_quest: "5BEDC8202274CD0D"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "59E6E568058101C9"
+			linked_quest: "0F8CFA0A74615A75"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			id: "735693B80D762F42"
+			optional: true
+			tasks: [{
+				id: "666D390312116DF6"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:iron_gear)item_tag(simplyswords:light_weapons))", "minecraft:custom_name": "\"SS Iron Light\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			id: "6E3B4542CE03407F"
+			optional: true
+			tasks: [{
+				id: "41097F9547A9A95D"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:iron_gear)item_tag(simplyswords:medium_weapons))", "minecraft:custom_name": "\"SS Iron Medium\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			id: "4AD5EAF05C5FD7FD"
+			optional: true
+			tasks: [{
+				id: "486066F9A676E3B5"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:iron_gear)item_tag(simplyswords:heavy_weapons))", "minecraft:custom_name": "\"SS Iron Heavy\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BEDC8202274CD0D"]
+			id: "27E0B4A86FC268B1"
+			optional: true
+			tasks: [{
+				id: "66C0B9091F75961F"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:gold_gear)item_tag(simplyswords:light_weapons))", "minecraft:custom_name": "\"SS Gold Light\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BEDC8202274CD0D"]
+			id: "242FBE1D4EAA74A5"
+			optional: true
+			tasks: [{
+				id: "35A56773782C03C3"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:gold_gear)item_tag(simplyswords:medium_weapons))", "minecraft:custom_name": "\"SS Gold Medium\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BEDC8202274CD0D"]
+			id: "18C791F05380BC8B"
+			optional: true
+			tasks: [{
+				id: "0C9D30E21482AB84"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:gold_gear)item_tag(simplyswords:heavy_weapons))", "minecraft:custom_name": "\"SS Gold Heavy\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F8CFA0A74615A75"]
+			id: "7E9801F183DF9B6C"
+			optional: true
+			tasks: [{
+				id: "6982DD3B3EF9C0AA"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:diamond_gear)item_tag(simplyswords:light_weapons))", "minecraft:custom_name": "\"SS Diamond Light\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F8CFA0A74615A75"]
+			id: "48D48C3D1A9285CB"
+			optional: true
+			tasks: [{
+				id: "2BBA43D69C10A7BD"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:diamond_gear)item_tag(simplyswords:medium_weapons))", "minecraft:custom_name": "\"SS Diamond Medium\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F8CFA0A74615A75"]
+			id: "4F751B609F5EC2D7"
+			optional: true
+			tasks: [{
+				id: "0A622122033EBF14"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:diamond_gear)item_tag(simplyswords:heavy_weapons))", "minecraft:custom_name": "\"SS Diamond Heavy\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "004ED77525144309"
+			optional: true
+			tasks: [{
+				id: "0A95495319AD5190"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:netherite_gear)item_tag(simplyswords:light_weapons))", "minecraft:custom_name": "\"SS Netherite Light\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "3FA268DC92EEBBF2"
+			optional: true
+			tasks: [{
+				id: "66EC83722A5A7311"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:netherite_gear)item_tag(simplyswords:medium_weapons))", "minecraft:custom_name": "\"SS Netherite Medium\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "304A2C05CD662D76"
+			optional: true
+			tasks: [{
+				id: "4C8DF2AA12649E96"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(simplyswords:netherite_gear)item_tag(simplyswords:heavy_weapons))", "minecraft:custom_name": "\"SS Netherite Heavy\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A2EAE8CAE54EA74"]
+			hide_dependency_lines: true
+			id: "7992D4122B42DBEB"
+			tasks: [{
+				id: "08127BF183D9570B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3877B28DF9EA015B"
+			tasks: [{
+				id: "197F11AA22A826C2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

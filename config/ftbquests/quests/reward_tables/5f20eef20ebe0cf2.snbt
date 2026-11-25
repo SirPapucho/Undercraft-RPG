@@ -1,0 +1,23 @@
+{
+	id: "5F20EEF20EBE0CF2"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 8
+			id: "7EA154B4FF318950"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+		}
+		{
+			count: 32
+			id: "516EDF282295CCA3"
+			item: {
+				count: 1
+				id: "ars_nouveau:sourceberry_bush"
+			}
+		}
+	]
+}

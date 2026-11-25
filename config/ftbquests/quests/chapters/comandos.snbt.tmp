@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "comandos"
+	group: "4B09857A6432255F"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbteams:textures/chat.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "305592DC47DD3DF9"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6C5082F7C532986F"
+			tasks: [{
+				id: "472EC19809683C7E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "0C8F56E07629B7B9"
+			tasks: [{
+				id: "142F915BE380B9A8"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "3028A34E0C9260CC"
+			tasks: [{
+				id: "41B8E6FC9C916883"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+}

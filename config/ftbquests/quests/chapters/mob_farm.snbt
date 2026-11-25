@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_farm"
+	group: "5BA41BF62FC698A4"
+	icon: {
+		id: "mob_grinding_utils:gm_chicken_feed_cursed"
+	}
+	id: "11080099676171AD"
+	images: [
+		{
+			height: 1.0d
+			id: "4C018A438D83EF11"
+			image: "minecraft:item/rotten_flesh"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			id: "25805C790EF4A880"
+			image: "minecraft:item/gunpowder"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			id: "26E0D32577E053C2"
+			image: "minecraft:item/bone"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			id: "641696FB93E31F42"
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			id: "440E42BC9B6D07F4"
+			image: "minecraft:item/string"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -7.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["640597C3B0499EB1"]
+			id: "1565144FB476D896"
+			tasks: [
+				{
+					id: "55302672DBCD8ECE"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
+					type: "item"
+				}
+				{
+					id: "2513AB04C1D725E0"
+					item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			id: "02956D4142749704"
+			optional: true
+			tasks: [{
+				id: "2A3A1D8C6A90A7D4"
+				item: { count: 1, id: "mob_grinding_utils:tinted_glass" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			id: "173ED989CD7AB269"
+			tasks: [{
+				id: "2AAD190819126B59"
+				item: { count: 1, id: "mob_grinding_utils:fan" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			id: "04971418E7FE9CD9"
+			tasks: [{
+				id: "0EEAE9F549698B11"
+				item: { count: 1, id: "mob_grinding_utils:saw" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04971418E7FE9CD9"]
+			id: "7EE0B9517A06FF41"
+			tasks: [{
+				id: "4CEB314307CAAF29"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mob_grinding_utils:saw_upgrade_fire)item(mob_grinding_utils:saw_upgrade_smite)item(mob_grinding_utils:saw_upgrade_arthropod)item(mob_grinding_utils:saw_upgrade_beheading)item(mob_grinding_utils:saw_upgrade_looting)item(mob_grinding_utils:saw_upgrade_sharpness))", "minecraft:custom_name": "\"Mejoras del triturador\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["173ED989CD7AB269"]
+			id: "7C025F0053F1F203"
+			tasks: [{
+				id: "19DC4B80522A398F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mob_grinding_utils:fan_upgrade_height)item(mob_grinding_utils:fan_upgrade_width)item(mob_grinding_utils:fan_upgrade_speed))", "minecraft:custom_name": "\"Mejoras del ventilador\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "51755B945A560644"
+			tasks: [{
+				id: "03A728BFDBFAA4B4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			id: "53872D33322AAD30"
+			tasks: [{
+				id: "4F6219634721B4E9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mob_grinding_utils:absorption_hopper)item(justdirethings:itemcollector))", "minecraft:custom_name": "\"Recolector de Items\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			id: "640597C3B0499EB1"
+			tasks: [{
+				id: "555F947B35FAA08D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:experienceholder)item(mob_grinding_utils:tank_sink))", "minecraft:custom_name": "\"Almacenar experiencia\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51755B945A560644"]
+			icon: {
+				id: "mob_grinding_utils:ender_inhibitor_on"
+			}
+			id: "10F23604B6A2B7C0"
+			optional: true
+			tasks: [{
+				id: "559B58160FC579BD"
+				item: { count: 1, id: "mob_grinding_utils:ender_inhibitor_on" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"02956D4142749704"
+				"640597C3B0499EB1"
+				"10F23604B6A2B7C0"
+				"53872D33322AAD30"
+				"173ED989CD7AB269"
+				"04971418E7FE9CD9"
+			]
+			hide_dependency_lines: true
+			id: "02C3965086911BC9"
+			tasks: [{
+				id: "4BCB8B1657AD2AFF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02C3965086911BC9"]
+			icon: {
+				id: "chipped:warning_red_concrete"
+			}
+			id: "39B630E1DA74B52B"
+			tasks: [{
+				id: "654BC91892555035"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["02C3965086911BC9"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "5F0519727483EF87"
+			tasks: [{
+				id: "544ABCCF9C5666D2"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["02C3965086911BC9"]
+			icon: {
+				components: {
+					"ftbquests:icon": "voicechat:icons/speaker_off"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6F9B0C2D70D88DF3"
+			tasks: [{
+				id: "1A8C358CB6A80F23"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["02C3965086911BC9"]
+			icon: {
+				id: "mob_grinding_utils:fan"
+			}
+			id: "0EDD07BF66F9C889"
+			tasks: [{
+				id: "0AE7196A39970B59"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["02C3965086911BC9"]
+			icon: {
+				id: "minecraft:lever"
+			}
+			id: "7DC8AD7F43B73486"
+			tasks: [{
+				id: "42FA88D74177B974"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+	]
+}

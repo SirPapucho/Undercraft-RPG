@@ -1,0 +1,24 @@
+{
+	# When true, enables the lightweight Team Member HP & Status HUD feature.
+	# Default: true
+	enable_team_hud: false
+	
+	# When true and the Waystones mod is installed, unlocking a waystone will automatically
+	# sync and unlock that waystone for all other members of the FTB Team.
+	# Default: true
+	enable_waystones_sync: true
+	
+	# When true, sends a chat notification to team members when a teammate unlocks a waystone.
+	# Default: true
+	notify_team_on_waystone_activated: true
+	
+	# When true, ally PvP protection only applies if each team has added the other player as an ally.
+	# Prevents a team from unilaterally blocking PvP by allying an enemy.
+	# Default: false
+	require_mutual_allies: false
+	
+	# The interval in ticks (20 ticks = 1 second) for background distance/position checks and catch-up sync for Team HUD.
+	# Default: 10
+	# Range: 1 ~ 100
+	team_hud_sync_interval_ticks: 10
+}

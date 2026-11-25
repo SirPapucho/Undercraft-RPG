@@ -1,0 +1,9 @@
+{
+	id: "7C5C52391EEB9294"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ id: "17456A153D9D6711", item: { components: { "minecraft:enchantments": { levels: { "botanypots:idle_hands": 1 } } }, count: 1, id: "minecraft:stone_hoe" } }
+		{ id: "4463D0A721C2ECA4", item: { components: { "minecraft:enchantments": { levels: { "botanypots:idle_hands": 1 } } }, count: 1, id: "minecraft:stone_axe" } }
+	]
+}

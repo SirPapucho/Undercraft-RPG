@@ -1,0 +1,432 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cazeria"
+	group: "4B09857A6432255F"
+	icon: {
+		components: {
+			"ftbquests:icon": "apotheosis:textures/gui/sword_full.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "76C3E40E802F0708"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "742EE01D8268E884"
+			rewards: [{
+				amount: 5L
+				id: "41B9B26B9021BE09"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1165CAE24E8DD35E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["742EE01D8268E884"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "5CB3933EAE432CEB"
+			rewards: [{
+				amount: 15L
+				id: "7F30CCE389C447C6"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7E4D70BBF186729A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5CB3933EAE432CEB"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "363472B5EC42256E"
+			rewards: [{
+				amount: 25L
+				id: "5AA294D1CB73BC16"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "23BB2096FE939E4A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["363472B5EC42256E"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "4F585FE9DCD0334C"
+			rewards: [{
+				amount: 50L
+				id: "67F9F95B5C329A07"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7DF9896D8F742048"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "1FD03D0877BAD418"
+			rewards: [{
+				amount: 5L
+				id: "568DD5740AE32212"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "73EB9C205D7016F8"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FD03D0877BAD418"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "6919564BBDEFF84E"
+			rewards: [{
+				amount: 15L
+				id: "7578E648A35773EB"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "66C70488310F8D40"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6919564BBDEFF84E"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "51C2CF1C8C9FC3EB"
+			rewards: [{
+				amount: 25L
+				id: "420AFC91864C2A3D"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "634D8ECD7B8F5947"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["51C2CF1C8C9FC3EB"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "35E90E7D71536DE9"
+			rewards: [{
+				amount: 50L
+				id: "4BAF8C7488EFCD6B"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4781DB5735012E17"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "48341B538A6A9F88"
+			rewards: [{
+				amount: 5L
+				id: "1F1D753A286109EE"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				entityTypeTag: "c:creepers"
+				id: "6109282DB6683CD9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48341B538A6A9F88"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "5AF238D15DF606FD"
+			rewards: [{
+				amount: 15L
+				id: "3FC3493CBD070EC9"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				entityTypeTag: "c:creepers"
+				id: "47AB5AAB74CED658"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AF238D15DF606FD"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "6BE56D0CD5451F5A"
+			rewards: [{
+				amount: 25L
+				id: "5C637E495C06B113"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				entityTypeTag: "c:creepers"
+				id: "513CC339385F5CE1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6BE56D0CD5451F5A"]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "5865D3F651449A20"
+			rewards: [{
+				amount: 50L
+				id: "29035D4A84E3F434"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:creeper"
+				entityTypeTag: "c:creepers"
+				id: "5A30757E57A6CD33"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["47D127FE82A04650"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "52EC366DA8D01808"
+			rewards: [{
+				amount: 50L
+				id: "356CAF0D836882B1"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "5F62ADD835DFC939"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75040E22B654383A"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "47D127FE82A04650"
+			rewards: [{
+				amount: 25L
+				id: "69E1CBEB5CD1089C"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4107481189204DB5"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["339BC37E6E2DA5AB"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "75040E22B654383A"
+			rewards: [{
+				amount: 15L
+				id: "065437C454A49481"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "7FCBF3D6762AF94F"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "339BC37E6E2DA5AB"
+			rewards: [{
+				amount: 5L
+				id: "586B34E839B84A3A"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4B5FB2683A257559"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "40B7A74FD6458A4A"
+			rewards: [{
+				amount: 5L
+				id: "27CBA7F0097B7E70"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "68249532361BF947"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40B7A74FD6458A4A"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "33B9CAC32E1DE119"
+			rewards: [{
+				amount: 10L
+				id: "607A3FEEBC482F96"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "3DBDC8C7F5BD3D5D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33B9CAC32E1DE119"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "122CFA6B71734794"
+			rewards: [{
+				amount: 25L
+				id: "6A24BAA92C0D1D48"
+				type: "currency"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "62B0E17C63D52334"
+				type: "kill"
+				value: 25L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["122CFA6B71734794"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "42B56944F22DDDC4"
+			rewards: [{
+				amount: 50L
+				id: "684C5B7D1C053B40"
+				type: "currency"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "334D293F1A5B19A4"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+}

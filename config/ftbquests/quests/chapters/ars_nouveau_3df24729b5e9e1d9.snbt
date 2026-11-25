@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau_3df24729b5e9e1d9"
+	group: "06F109935DDA6D62"
+	icon: {
+		id: "ars_nouveau:storage_lectern"
+	}
+	id: "3DF24729B5E9E1D9"
+	images: [ ]
+	order_index: 3
+	quest_links: [
+		{
+			id: "342BBA2B9F62B679"
+			linked_quest: "7CCD5D6BA7F65180"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "5B1688F9A299D796"
+			linked_quest: "79BA1A364B7E7417"
+			x: 1.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"7CCD5D6BA7F65180"
+				"79BA1A364B7E7417"
+			]
+			icon_scale: 2.0d
+			id: "591EF284DA1890B5"
+			shape: "none"
+			tasks: [{
+				id: "5600DD0F6A62F32E"
+				item: { count: 1, id: "ars_nouveau:storage_lectern" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["591EF284DA1890B5"]
+			id: "156D0EEAC6796665"
+			tasks: [{
+				id: "4AFA801753EB3D36"
+				item: { count: 1, id: "ars_nouveau:bookwyrm_charm" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["156D0EEAC6796665"]
+			id: "2FAFF0E72E3FD805"
+			tasks: [{
+				id: "202120F61ECCEF2A"
+				item: { count: 1, id: "ars_additions:warp_index" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FAFF0E72E3FD805"]
+			id: "3143D5DEB6FF4FBA"
+			tasks: [{
+				id: "40297F952E2C573D"
+				item: { count: 1, id: "ars_additions:stabilized_warp_index" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}
