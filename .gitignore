@@ -8,6 +8,14 @@ local/
 versions/
 libraries/
 assets/
+profileImage/
+
+# Generado automaticamente por CurseForge / build
+modlist.html
+
+# Resource packs y shaders de terceros
+resourcepacks/*.zip
+shaderpacks/*.zip
 
 # Ajustes locales y minimapas
 journeymap/
